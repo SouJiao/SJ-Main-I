@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SJRootViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    SJRootViewController* rootViewController = [[SJRootViewController alloc] init];
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.rootViewController = rootViewController;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -9,10 +9,24 @@
 /* Begin PBXBuildFile section */
 		3B89250C1EAB5C710039A208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B89250B1EAB5C710039A208 /* main.m */; };
 		3B89250F1EAB5C710039A208 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B89250E1EAB5C710039A208 /* AppDelegate.m */; };
-		3B8925121EAB5C710039A208 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8925111EAB5C710039A208 /* ViewController.m */; };
-		3B8925151EAB5C720039A208 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8925131EAB5C720039A208 /* Main.storyboard */; };
 		3B8925171EAB5C720039A208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8925161EAB5C720039A208 /* Assets.xcassets */; };
 		3B89251A1EAB5C720039A208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8925181EAB5C720039A208 /* LaunchScreen.storyboard */; };
+		3BE7EDD11EACB11A00B73832 /* SJBusinessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDCC1EACB11A00B73832 /* SJBusinessUser.m */; };
+		3BE7EDD21EACB11A00B73832 /* SJGeneralUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDCE1EACB11A00B73832 /* SJGeneralUser.m */; };
+		3BE7EDD31EACB11A00B73832 /* SJUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDD01EACB11A00B73832 /* SJUser.m */; };
+		3BE7EDD71EACB1FF00B73832 /* SJProfiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDD61EACB1FF00B73832 /* SJProfiles.m */; };
+		3BE7EDDB1EACB2DD00B73832 /* SJLoginCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDDA1EACB2DD00B73832 /* SJLoginCenter.m */; };
+		3BE7EDE21EACB64D00B73832 /* SJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDE11EACB64D00B73832 /* SJBaseViewController.m */; };
+		3BE7EDE51EACB67100B73832 /* SJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDE41EACB67100B73832 /* SJRootViewController.m */; };
+		3BE7EDE81EACB68B00B73832 /* SJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDE71EACB68B00B73832 /* SJMainViewController.m */; };
+		3BE7EDEB1EACE1E900B73832 /* SJMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDEA1EACE1E900B73832 /* SJMineViewController.m */; };
+		3BE7EDF01EACE38100B73832 /* SJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDEE1EACE38100B73832 /* SJLoginViewController.m */; };
+		3BE7EDF11EACE38100B73832 /* SJLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE7EDEF1EACE38100B73832 /* SJLoginViewController.xib */; };
+		3BE7EDF51EACE39100B73832 /* SJRegisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDF31EACE39100B73832 /* SJRegisterViewController.m */; };
+		3BE7EDF61EACE39100B73832 /* SJRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE7EDF41EACE39100B73832 /* SJRegisterViewController.xib */; };
+		3BE7EDF81EACE45A00B73832 /* SJMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE7EDF71EACE45A00B73832 /* SJMainViewController.xib */; };
+		3BE7EDFC1EACE4F300B73832 /* SJAdvertiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDFA1EACE4F300B73832 /* SJAdvertiseViewController.m */; };
+		3BE7EDFD1EACE4F300B73832 /* SJAdvertiseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE7EDFB1EACE4F300B73832 /* SJAdvertiseViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +34,37 @@
 		3B89250B1EAB5C710039A208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B89250D1EAB5C710039A208 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3B89250E1EAB5C710039A208 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3B8925101EAB5C710039A208 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3B8925111EAB5C710039A208 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		3B8925141EAB5C720039A208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3B8925161EAB5C720039A208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B8925191EAB5C720039A208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B89251B1EAB5C720039A208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BE7EDCB1EACB11A00B73832 /* SJBusinessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJBusinessUser.h; sourceTree = "<group>"; };
+		3BE7EDCC1EACB11A00B73832 /* SJBusinessUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJBusinessUser.m; sourceTree = "<group>"; };
+		3BE7EDCD1EACB11A00B73832 /* SJGeneralUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJGeneralUser.h; sourceTree = "<group>"; };
+		3BE7EDCE1EACB11A00B73832 /* SJGeneralUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJGeneralUser.m; sourceTree = "<group>"; };
+		3BE7EDCF1EACB11A00B73832 /* SJUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJUser.h; sourceTree = "<group>"; };
+		3BE7EDD01EACB11A00B73832 /* SJUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJUser.m; sourceTree = "<group>"; };
+		3BE7EDD51EACB1FF00B73832 /* SJProfiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJProfiles.h; sourceTree = "<group>"; };
+		3BE7EDD61EACB1FF00B73832 /* SJProfiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJProfiles.m; sourceTree = "<group>"; };
+		3BE7EDD91EACB2DD00B73832 /* SJLoginCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLoginCenter.h; sourceTree = "<group>"; };
+		3BE7EDDA1EACB2DD00B73832 /* SJLoginCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLoginCenter.m; sourceTree = "<group>"; };
+		3BE7EDE01EACB64D00B73832 /* SJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJBaseViewController.h; sourceTree = "<group>"; };
+		3BE7EDE11EACB64D00B73832 /* SJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJBaseViewController.m; sourceTree = "<group>"; };
+		3BE7EDE31EACB67100B73832 /* SJRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRootViewController.h; sourceTree = "<group>"; };
+		3BE7EDE41EACB67100B73832 /* SJRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRootViewController.m; sourceTree = "<group>"; };
+		3BE7EDE61EACB68B00B73832 /* SJMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJMainViewController.h; sourceTree = "<group>"; };
+		3BE7EDE71EACB68B00B73832 /* SJMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJMainViewController.m; sourceTree = "<group>"; };
+		3BE7EDE91EACE1E900B73832 /* SJMineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJMineViewController.h; sourceTree = "<group>"; };
+		3BE7EDEA1EACE1E900B73832 /* SJMineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJMineViewController.m; sourceTree = "<group>"; };
+		3BE7EDED1EACE38100B73832 /* SJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLoginViewController.h; sourceTree = "<group>"; };
+		3BE7EDEE1EACE38100B73832 /* SJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLoginViewController.m; sourceTree = "<group>"; };
+		3BE7EDEF1EACE38100B73832 /* SJLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJLoginViewController.xib; sourceTree = "<group>"; };
+		3BE7EDF21EACE39100B73832 /* SJRegisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRegisterViewController.h; sourceTree = "<group>"; };
+		3BE7EDF31EACE39100B73832 /* SJRegisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRegisterViewController.m; sourceTree = "<group>"; };
+		3BE7EDF41EACE39100B73832 /* SJRegisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJRegisterViewController.xib; sourceTree = "<group>"; };
+		3BE7EDF71EACE45A00B73832 /* SJMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJMainViewController.xib; sourceTree = "<group>"; };
+		3BE7EDF91EACE4F300B73832 /* SJAdvertiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJAdvertiseViewController.h; sourceTree = "<group>"; };
+		3BE7EDFA1EACE4F300B73832 /* SJAdvertiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJAdvertiseViewController.m; sourceTree = "<group>"; };
+		3BE7EDFB1EACE4F300B73832 /* SJAdvertiseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJAdvertiseViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +97,10 @@
 		3B8925091EAB5C710039A208 /* SouJiao */ = {
 			isa = PBXGroup;
 			children = (
+				3BE7EDDC1EACB54C00B73832 /* Controller */,
+				3BE7EDC01EACAFDD00B73832 /* Modules */,
 				3B89250D1EAB5C710039A208 /* AppDelegate.h */,
 				3B89250E1EAB5C710039A208 /* AppDelegate.m */,
-				3B8925101EAB5C710039A208 /* ViewController.h */,
-				3B8925111EAB5C710039A208 /* ViewController.m */,
-				3B8925131EAB5C720039A208 /* Main.storyboard */,
 				3B8925161EAB5C720039A208 /* Assets.xcassets */,
 				3B8925181EAB5C720039A208 /* LaunchScreen.storyboard */,
 				3B89251B1EAB5C720039A208 /* Info.plist */,
@@ -77,6 +115,104 @@
 				3B89250B1EAB5C710039A208 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BE7EDC01EACAFDD00B73832 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				3BE7EDD81EACB2CB00B73832 /* LoginCenter */,
+				3BE7EDCA1EACB11A00B73832 /* User */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		3BE7EDCA1EACB11A00B73832 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				3BE7EDD41EACB1EC00B73832 /* Profiles */,
+				3BE7EDCB1EACB11A00B73832 /* SJBusinessUser.h */,
+				3BE7EDCC1EACB11A00B73832 /* SJBusinessUser.m */,
+				3BE7EDCD1EACB11A00B73832 /* SJGeneralUser.h */,
+				3BE7EDCE1EACB11A00B73832 /* SJGeneralUser.m */,
+				3BE7EDCF1EACB11A00B73832 /* SJUser.h */,
+				3BE7EDD01EACB11A00B73832 /* SJUser.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		3BE7EDD41EACB1EC00B73832 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				3BE7EDD51EACB1FF00B73832 /* SJProfiles.h */,
+				3BE7EDD61EACB1FF00B73832 /* SJProfiles.m */,
+			);
+			path = Profiles;
+			sourceTree = "<group>";
+		};
+		3BE7EDD81EACB2CB00B73832 /* LoginCenter */ = {
+			isa = PBXGroup;
+			children = (
+				3BE7EDD91EACB2DD00B73832 /* SJLoginCenter.h */,
+				3BE7EDDA1EACB2DD00B73832 /* SJLoginCenter.m */,
+			);
+			path = LoginCenter;
+			sourceTree = "<group>";
+		};
+		3BE7EDDC1EACB54C00B73832 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3BE7EDDD1EACB5C700B73832 /* Main */,
+				3BE7EDDE1EACB5C700B73832 /* Root */,
+				3BE7EDDF1EACB5C700B73832 /* Splash */,
+				3BE7EDE01EACB64D00B73832 /* SJBaseViewController.h */,
+				3BE7EDE11EACB64D00B73832 /* SJBaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3BE7EDDD1EACB5C700B73832 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				3BE7EDEC1EACE37100B73832 /* Login */,
+				3BE7EDE61EACB68B00B73832 /* SJMainViewController.h */,
+				3BE7EDE71EACB68B00B73832 /* SJMainViewController.m */,
+				3BE7EDF71EACE45A00B73832 /* SJMainViewController.xib */,
+				3BE7EDE91EACE1E900B73832 /* SJMineViewController.h */,
+				3BE7EDEA1EACE1E900B73832 /* SJMineViewController.m */,
+				3BE7EDF91EACE4F300B73832 /* SJAdvertiseViewController.h */,
+				3BE7EDFA1EACE4F300B73832 /* SJAdvertiseViewController.m */,
+				3BE7EDFB1EACE4F300B73832 /* SJAdvertiseViewController.xib */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		3BE7EDDE1EACB5C700B73832 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				3BE7EDE31EACB67100B73832 /* SJRootViewController.h */,
+				3BE7EDE41EACB67100B73832 /* SJRootViewController.m */,
+			);
+			path = Root;
+			sourceTree = "<group>";
+		};
+		3BE7EDDF1EACB5C700B73832 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		3BE7EDEC1EACE37100B73832 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				3BE7EDED1EACE38100B73832 /* SJLoginViewController.h */,
+				3BE7EDEE1EACE38100B73832 /* SJLoginViewController.m */,
+				3BE7EDEF1EACE38100B73832 /* SJLoginViewController.xib */,
+				3BE7EDF21EACE39100B73832 /* SJRegisterViewController.h */,
+				3BE7EDF31EACE39100B73832 /* SJRegisterViewController.m */,
+				3BE7EDF41EACE39100B73832 /* SJRegisterViewController.xib */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,9 +273,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BE7EDF11EACE38100B73832 /* SJLoginViewController.xib in Resources */,
 				3B89251A1EAB5C720039A208 /* LaunchScreen.storyboard in Resources */,
+				3BE7EDF81EACE45A00B73832 /* SJMainViewController.xib in Resources */,
+				3BE7EDF61EACE39100B73832 /* SJRegisterViewController.xib in Resources */,
 				3B8925171EAB5C720039A208 /* Assets.xcassets in Resources */,
-				3B8925151EAB5C720039A208 /* Main.storyboard in Resources */,
+				3BE7EDFD1EACE4F300B73832 /* SJAdvertiseViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,23 +289,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3B8925121EAB5C710039A208 /* ViewController.m in Sources */,
+				3BE7EDE51EACB67100B73832 /* SJRootViewController.m in Sources */,
+				3BE7EDDB1EACB2DD00B73832 /* SJLoginCenter.m in Sources */,
+				3BE7EDD31EACB11A00B73832 /* SJUser.m in Sources */,
+				3BE7EDFC1EACE4F300B73832 /* SJAdvertiseViewController.m in Sources */,
+				3BE7EDF01EACE38100B73832 /* SJLoginViewController.m in Sources */,
 				3B89250F1EAB5C710039A208 /* AppDelegate.m in Sources */,
+				3BE7EDF51EACE39100B73832 /* SJRegisterViewController.m in Sources */,
+				3BE7EDE81EACB68B00B73832 /* SJMainViewController.m in Sources */,
 				3B89250C1EAB5C710039A208 /* main.m in Sources */,
+				3BE7EDE21EACB64D00B73832 /* SJBaseViewController.m in Sources */,
+				3BE7EDEB1EACE1E900B73832 /* SJMineViewController.m in Sources */,
+				3BE7EDD11EACB11A00B73832 /* SJBusinessUser.m in Sources */,
+				3BE7EDD21EACB11A00B73832 /* SJGeneralUser.m in Sources */,
+				3BE7EDD71EACB1FF00B73832 /* SJProfiles.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3B8925131EAB5C720039A208 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3B8925141EAB5C720039A208 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3B8925181EAB5C720039A208 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -311,6 +453,7 @@
 				3B8925201EAB5C720039A208 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

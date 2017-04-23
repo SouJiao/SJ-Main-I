@@ -1,24 +1,23 @@
 //
-//  ViewController.m
+//  SJMineViewController.m
 //  SouJiao
 //
-//  Created by Ares on 2017/4/22.
+//  Created by Ares on 2017/4/23.
 //  Copyright © 2017年 Ares. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SJMineViewController.h"
 
-@interface ViewController ()
+@interface SJMineViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SJMineViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    // Do any additional setup after loading the view.
 }
-
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
