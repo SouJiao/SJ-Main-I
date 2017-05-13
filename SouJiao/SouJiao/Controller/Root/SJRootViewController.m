@@ -21,7 +21,12 @@
     // Do any additional setup after loading the view.
     
     self.mineViewController = [[SJMineViewController alloc] init];
+    self.mineViewController.tabBarItem.title = @"Mine";
+    
     self.mainViewController = [[SJMainViewController alloc] init];
+    self.mainViewController.tabBarItem.title = @"Main";
+    
+    self.viewControllers = @[_mainViewController, _mineViewController];
 }
 
 - (void)didReceiveMemoryWarning {
