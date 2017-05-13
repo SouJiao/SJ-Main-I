@@ -27,6 +27,7 @@
 		3BE7EDF81EACE45A00B73832 /* SJMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE7EDF71EACE45A00B73832 /* SJMainViewController.xib */; };
 		3BE7EDFC1EACE4F300B73832 /* SJAdvertiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDFA1EACE4F300B73832 /* SJAdvertiseViewController.m */; };
 		3BE7EDFD1EACE4F300B73832 /* SJAdvertiseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE7EDFB1EACE4F300B73832 /* SJAdvertiseViewController.xib */; };
+		5FEB04B5DE175C7E610F03FB /* libPods-SouJiao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9E4FD210C6204DFB5FC382 /* libPods-SouJiao.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +66,9 @@
 		3BE7EDF91EACE4F300B73832 /* SJAdvertiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJAdvertiseViewController.h; sourceTree = "<group>"; };
 		3BE7EDFA1EACE4F300B73832 /* SJAdvertiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJAdvertiseViewController.m; sourceTree = "<group>"; };
 		3BE7EDFB1EACE4F300B73832 /* SJAdvertiseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJAdvertiseViewController.xib; sourceTree = "<group>"; };
+		772B1564477F133C8BF3471B /* Pods-SouJiao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouJiao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SouJiao/Pods-SouJiao.debug.xcconfig"; sourceTree = "<group>"; };
+		8D5685EB34D152C3114858E6 /* Pods-SouJiao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouJiao.release.xcconfig"; path = "Pods/Target Support Files/Pods-SouJiao/Pods-SouJiao.release.xcconfig"; sourceTree = "<group>"; };
+		9C9E4FD210C6204DFB5FC382 /* libPods-SouJiao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SouJiao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,17 +76,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FEB04B5DE175C7E610F03FB /* libPods-SouJiao.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04D482D715C51D3D8B0FF190 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				772B1564477F133C8BF3471B /* Pods-SouJiao.debug.xcconfig */,
+				8D5685EB34D152C3114858E6 /* Pods-SouJiao.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		3B8924FE1EAB5C710039A208 = {
 			isa = PBXGroup;
 			children = (
 				3B8925091EAB5C710039A208 /* SouJiao */,
 				3B8925081EAB5C710039A208 /* Products */,
+				04D482D715C51D3D8B0FF190 /* Pods */,
+				72E7D7AC0A01B3B91B40EAF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -215,6 +231,14 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		72E7D7AC0A01B3B91B40EAF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C9E4FD210C6204DFB5FC382 /* libPods-SouJiao.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -222,9 +246,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B89251E1EAB5C720039A208 /* Build configuration list for PBXNativeTarget "SouJiao" */;
 			buildPhases = (
+				BB36268AB098B65A1B9845EA /* [CP] Check Pods Manifest.lock */,
 				3B8925031EAB5C710039A208 /* Sources */,
 				3B8925041EAB5C710039A208 /* Frameworks */,
 				3B8925051EAB5C710039A208 /* Resources */,
+				19B10F3BC8202CDCB5C14614 /* [CP] Embed Pods Frameworks */,
+				251DF6A5A5AE5B6F350C8FC9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -283,6 +310,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19B10F3BC8202CDCB5C14614 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SouJiao/Pods-SouJiao-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		251DF6A5A5AE5B6F350C8FC9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SouJiao/Pods-SouJiao-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB36268AB098B65A1B9845EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3B8925031EAB5C710039A208 /* Sources */ = {
@@ -414,6 +489,7 @@
 		};
 		3B89251F1EAB5C720039A208 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 772B1564477F133C8BF3471B /* Pods-SouJiao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SouJiao/Info.plist;
@@ -425,6 +501,7 @@
 		};
 		3B8925201EAB5C720039A208 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D5685EB34D152C3114858E6 /* Pods-SouJiao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SouJiao/Info.plist;
