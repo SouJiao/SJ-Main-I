@@ -8,6 +8,20 @@
 
 #import "SJBaseViewController.h"
 
+typedef NS_ENUM(NSInteger, SJMineViewControllerItems)
+{
+    // 评分
+    SJMineViewControllerScore,
+    // 设置
+    SJMineViewControllerSettings,
+    // 消息
+    SJMineViewControllerMessage,
+    // 用户反馈
+    SJMineViewControllerFeedback,
+    // 关于
+    SJMineViewControllerAbout,
+};
+
 @interface SJMineViewController : SJBaseViewController
 
 @end

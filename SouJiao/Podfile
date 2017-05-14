@@ -10,3 +10,4 @@ target 'SouJiao' do
 end
 
 pod "AFNetworking", "~> 2.0"
+pod 'Masonry'

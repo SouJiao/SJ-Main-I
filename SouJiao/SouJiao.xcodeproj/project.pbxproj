@@ -18,12 +18,22 @@
 		3B89250F1EAB5C710039A208 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B89250E1EAB5C710039A208 /* AppDelegate.m */; };
 		3B8925171EAB5C720039A208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8925161EAB5C720039A208 /* Assets.xcassets */; };
 		3B89251A1EAB5C720039A208 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B8925181EAB5C720039A208 /* LaunchScreen.storyboard */; };
+		3BA0CE1E1EC821C2003F37F8 /* SJMineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BA0CE1D1EC821C2003F37F8 /* SJMineViewController.xib */; };
+		3BA0CE211EC82534003F37F8 /* SJUserProfileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CE201EC82534003F37F8 /* SJUserProfileView.m */; };
+		3BA0CE251EC82554003F37F8 /* SJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CE241EC82554003F37F8 /* SJBaseViewController.m */; };
+		3BA0CE281EC82565003F37F8 /* SJBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CE271EC82565003F37F8 /* SJBaseView.m */; };
+		3BA0CE2A1EC82583003F37F8 /* SJUserProfileView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BA0CE291EC82583003F37F8 /* SJUserProfileView.xib */; };
+		3BA0CE2E1EC84EF7003F37F8 /* SJSearchManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CE2D1EC84EF7003F37F8 /* SJSearchManager.m */; };
+		3BA0CE301EC85029003F37F8 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BA0CE2F1EC85029003F37F8 /* CoreLocation.framework */; };
+		3BA0CE331EC851D7003F37F8 /* SJUserManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CE321EC851D7003F37F8 /* SJUserManager.m */; };
+		3BA0CE3A1EC897D7003F37F8 /* UIDevice+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CE391EC897D7003F37F8 /* UIDevice+Common.m */; };
+		3BA0CE3D1EC89869003F37F8 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CE3C1EC89869003F37F8 /* UIView+Frame.m */; };
+		3BA0CE401EC89A64003F37F8 /* SJUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CE3F1EC89A64003F37F8 /* SJUtility.m */; };
 		3BE7EDD11EACB11A00B73832 /* SJBusinessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDCC1EACB11A00B73832 /* SJBusinessUser.m */; };
 		3BE7EDD21EACB11A00B73832 /* SJGeneralUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDCE1EACB11A00B73832 /* SJGeneralUser.m */; };
 		3BE7EDD31EACB11A00B73832 /* SJUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDD01EACB11A00B73832 /* SJUser.m */; };
 		3BE7EDD71EACB1FF00B73832 /* SJProfiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDD61EACB1FF00B73832 /* SJProfiles.m */; };
 		3BE7EDDB1EACB2DD00B73832 /* SJLoginCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDDA1EACB2DD00B73832 /* SJLoginCenter.m */; };
-		3BE7EDE21EACB64D00B73832 /* SJBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDE11EACB64D00B73832 /* SJBaseViewController.m */; };
 		3BE7EDE51EACB67100B73832 /* SJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDE41EACB67100B73832 /* SJRootViewController.m */; };
 		3BE7EDE81EACB68B00B73832 /* SJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDE71EACB68B00B73832 /* SJMainViewController.m */; };
 		3BE7EDF81EACE45A00B73832 /* SJMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE7EDF71EACE45A00B73832 /* SJMainViewController.xib */; };
@@ -49,6 +59,26 @@
 		3B8925161EAB5C720039A208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3B8925191EAB5C720039A208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B89251B1EAB5C720039A208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3BA0CE1D1EC821C2003F37F8 /* SJMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJMineViewController.xib; sourceTree = "<group>"; };
+		3BA0CE1F1EC82534003F37F8 /* SJUserProfileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJUserProfileView.h; sourceTree = "<group>"; };
+		3BA0CE201EC82534003F37F8 /* SJUserProfileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJUserProfileView.m; sourceTree = "<group>"; };
+		3BA0CE231EC82554003F37F8 /* SJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJBaseViewController.h; sourceTree = "<group>"; };
+		3BA0CE241EC82554003F37F8 /* SJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJBaseViewController.m; sourceTree = "<group>"; };
+		3BA0CE261EC82565003F37F8 /* SJBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJBaseView.h; sourceTree = "<group>"; };
+		3BA0CE271EC82565003F37F8 /* SJBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJBaseView.m; sourceTree = "<group>"; };
+		3BA0CE291EC82583003F37F8 /* SJUserProfileView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJUserProfileView.xib; sourceTree = "<group>"; };
+		3BA0CE2B1EC83CDB003F37F8 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		3BA0CE2C1EC84EF7003F37F8 /* SJSearchManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJSearchManager.h; sourceTree = "<group>"; };
+		3BA0CE2D1EC84EF7003F37F8 /* SJSearchManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJSearchManager.m; sourceTree = "<group>"; };
+		3BA0CE2F1EC85029003F37F8 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3BA0CE311EC851D7003F37F8 /* SJUserManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJUserManager.h; sourceTree = "<group>"; };
+		3BA0CE321EC851D7003F37F8 /* SJUserManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJUserManager.m; sourceTree = "<group>"; };
+		3BA0CE381EC897D7003F37F8 /* UIDevice+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Common.h"; sourceTree = "<group>"; };
+		3BA0CE391EC897D7003F37F8 /* UIDevice+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Common.m"; sourceTree = "<group>"; };
+		3BA0CE3B1EC89869003F37F8 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		3BA0CE3C1EC89869003F37F8 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		3BA0CE3E1EC89A64003F37F8 /* SJUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJUtility.h; sourceTree = "<group>"; };
+		3BA0CE3F1EC89A64003F37F8 /* SJUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJUtility.m; sourceTree = "<group>"; };
 		3BE7EDCB1EACB11A00B73832 /* SJBusinessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJBusinessUser.h; sourceTree = "<group>"; };
 		3BE7EDCC1EACB11A00B73832 /* SJBusinessUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJBusinessUser.m; sourceTree = "<group>"; };
 		3BE7EDCD1EACB11A00B73832 /* SJGeneralUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJGeneralUser.h; sourceTree = "<group>"; };
@@ -59,8 +89,6 @@
 		3BE7EDD61EACB1FF00B73832 /* SJProfiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJProfiles.m; sourceTree = "<group>"; };
 		3BE7EDD91EACB2DD00B73832 /* SJLoginCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLoginCenter.h; sourceTree = "<group>"; };
 		3BE7EDDA1EACB2DD00B73832 /* SJLoginCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLoginCenter.m; sourceTree = "<group>"; };
-		3BE7EDE01EACB64D00B73832 /* SJBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJBaseViewController.h; sourceTree = "<group>"; };
-		3BE7EDE11EACB64D00B73832 /* SJBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJBaseViewController.m; sourceTree = "<group>"; };
 		3BE7EDE31EACB67100B73832 /* SJRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRootViewController.h; sourceTree = "<group>"; };
 		3BE7EDE41EACB67100B73832 /* SJRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRootViewController.m; sourceTree = "<group>"; };
 		3BE7EDE61EACB68B00B73832 /* SJMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJMainViewController.h; sourceTree = "<group>"; };
@@ -76,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA0CE301EC85029003F37F8 /* CoreLocation.framework in Frameworks */,
 				5FEB04B5DE175C7E610F03FB /* libPods-SouJiao.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -98,6 +127,10 @@
 				3B857CF91EC751D200764354 /* Login */,
 				3B857D001EC751D200764354 /* SJMineViewController.h */,
 				3B857D011EC751D200764354 /* SJMineViewController.m */,
+				3BA0CE1D1EC821C2003F37F8 /* SJMineViewController.xib */,
+				3BA0CE1F1EC82534003F37F8 /* SJUserProfileView.h */,
+				3BA0CE201EC82534003F37F8 /* SJUserProfileView.m */,
+				3BA0CE291EC82583003F37F8 /* SJUserProfileView.xib */,
 			);
 			path = Mine;
 			sourceTree = "<group>";
@@ -153,6 +186,7 @@
 		3B8925091EAB5C710039A208 /* SouJiao */ = {
 			isa = PBXGroup;
 			children = (
+				3BA0CE341EC8972C003F37F8 /* Common */,
 				3BE7EDDC1EACB54C00B73832 /* Controller */,
 				3BE7EDC01EACAFDD00B73832 /* Modules */,
 				3B89250D1EAB5C710039A208 /* AppDelegate.h */,
@@ -169,8 +203,49 @@
 			isa = PBXGroup;
 			children = (
 				3B89250B1EAB5C710039A208 /* main.m */,
+				3BA0CE2B1EC83CDB003F37F8 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3BA0CE221EC82554003F37F8 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0CE231EC82554003F37F8 /* SJBaseViewController.h */,
+				3BA0CE241EC82554003F37F8 /* SJBaseViewController.m */,
+				3BA0CE261EC82565003F37F8 /* SJBaseView.h */,
+				3BA0CE271EC82565003F37F8 /* SJBaseView.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		3BA0CE341EC8972C003F37F8 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0CE351EC89758003F37F8 /* Extensions */,
+				3BA0CE361EC89758003F37F8 /* Utilitys */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		3BA0CE351EC89758003F37F8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0CE381EC897D7003F37F8 /* UIDevice+Common.h */,
+				3BA0CE391EC897D7003F37F8 /* UIDevice+Common.m */,
+				3BA0CE3B1EC89869003F37F8 /* UIView+Frame.h */,
+				3BA0CE3C1EC89869003F37F8 /* UIView+Frame.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3BA0CE361EC89758003F37F8 /* Utilitys */ = {
+			isa = PBXGroup;
+			children = (
+				3BA0CE3E1EC89A64003F37F8 /* SJUtility.h */,
+				3BA0CE3F1EC89A64003F37F8 /* SJUtility.m */,
+			);
+			path = Utilitys;
 			sourceTree = "<group>";
 		};
 		3BE7EDC01EACAFDD00B73832 /* Modules */ = {
@@ -178,6 +253,10 @@
 			children = (
 				3BE7EDD81EACB2CB00B73832 /* LoginCenter */,
 				3BE7EDCA1EACB11A00B73832 /* User */,
+				3BA0CE2C1EC84EF7003F37F8 /* SJSearchManager.h */,
+				3BA0CE2D1EC84EF7003F37F8 /* SJSearchManager.m */,
+				3BA0CE311EC851D7003F37F8 /* SJUserManager.h */,
+				3BA0CE321EC851D7003F37F8 /* SJUserManager.m */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -217,11 +296,10 @@
 		3BE7EDDC1EACB54C00B73832 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				3BA0CE221EC82554003F37F8 /* Base */,
 				3B857CF81EC7518F00764354 /* Mine */,
 				3BE7EDDD1EACB5C700B73832 /* Main */,
 				3BE7EDDE1EACB5C700B73832 /* Root */,
-				3BE7EDE01EACB64D00B73832 /* SJBaseViewController.h */,
-				3BE7EDE11EACB64D00B73832 /* SJBaseViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -250,6 +328,7 @@
 		72E7D7AC0A01B3B91B40EAF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3BA0CE2F1EC85029003F37F8 /* CoreLocation.framework */,
 				9C9E4FD210C6204DFB5FC382 /* libPods-SouJiao.a */,
 			);
 			name = Frameworks;
@@ -316,11 +395,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BA0CE1E1EC821C2003F37F8 /* SJMineViewController.xib in Resources */,
 				3B857D031EC751D200764354 /* SJLoginViewController.xib in Resources */,
 				3B89251A1EAB5C720039A208 /* LaunchScreen.storyboard in Resources */,
 				3B857D051EC751D200764354 /* SJRegisterViewController.xib in Resources */,
 				3BE7EDF81EACE45A00B73832 /* SJMainViewController.xib in Resources */,
 				3B8925171EAB5C720039A208 /* Assets.xcassets in Resources */,
+				3BA0CE2A1EC82583003F37F8 /* SJUserProfileView.xib in Resources */,
 				3B857D0D1EC7521600764354 /* SJAdvertiseViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -381,16 +462,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				3BE7EDE51EACB67100B73832 /* SJRootViewController.m in Sources */,
+				3BA0CE331EC851D7003F37F8 /* SJUserManager.m in Sources */,
 				3BE7EDDB1EACB2DD00B73832 /* SJLoginCenter.m in Sources */,
+				3BA0CE211EC82534003F37F8 /* SJUserProfileView.m in Sources */,
 				3BE7EDD31EACB11A00B73832 /* SJUser.m in Sources */,
+				3BA0CE2E1EC84EF7003F37F8 /* SJSearchManager.m in Sources */,
+				3BA0CE3A1EC897D7003F37F8 /* UIDevice+Common.m in Sources */,
 				3B857D0C1EC7521600764354 /* SJAdvertiseViewController.m in Sources */,
+				3BA0CE3D1EC89869003F37F8 /* UIView+Frame.m in Sources */,
 				3B857D021EC751D200764354 /* SJLoginViewController.m in Sources */,
+				3BA0CE401EC89A64003F37F8 /* SJUtility.m in Sources */,
 				3B857D041EC751D200764354 /* SJRegisterViewController.m in Sources */,
 				3B89250F1EAB5C710039A208 /* AppDelegate.m in Sources */,
 				3BE7EDE81EACB68B00B73832 /* SJMainViewController.m in Sources */,
 				3B89250C1EAB5C710039A208 /* main.m in Sources */,
-				3BE7EDE21EACB64D00B73832 /* SJBaseViewController.m in Sources */,
+				3BA0CE281EC82565003F37F8 /* SJBaseView.m in Sources */,
 				3BE7EDD11EACB11A00B73832 /* SJBusinessUser.m in Sources */,
+				3BA0CE251EC82554003F37F8 /* SJBaseViewController.m in Sources */,
 				3BE7EDD21EACB11A00B73832 /* SJGeneralUser.m in Sources */,
 				3B857D061EC751D200764354 /* SJMineViewController.m in Sources */,
 				3BE7EDD71EACB1FF00B73832 /* SJProfiles.m in Sources */,
@@ -508,6 +596,8 @@
 			baseConfigurationReference = 772B1564477F133C8BF3471B /* Pods-SouJiao.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SouJiao/PrefixHeader.pch;
 				INFOPLIST_FILE = SouJiao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SJ.SouJiao;
@@ -520,6 +610,8 @@
 			baseConfigurationReference = 8D5685EB34D152C3114858E6 /* Pods-SouJiao.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = SouJiao/PrefixHeader.pch;
 				INFOPLIST_FILE = SouJiao/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = SJ.SouJiao;
