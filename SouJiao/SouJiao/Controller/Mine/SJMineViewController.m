@@ -8,12 +8,13 @@
 
 #import "SJMineViewController.h"
 #import "SJUserProfileView.h"
+#import "SJRegisterViewController.h"
 
-@interface SJMineViewController () <UITableViewDelegate, UITableViewDataSource>
+@interface SJMineViewController () <UITableViewDelegate, UITableViewDataSource, SJUserProfileViewDelegate>
 
 @property(nonatomic, strong) IBOutlet UITableView* tableView;
-@property(nonatomic, strong) UIView* userProfileView;
-@property(nonatomic, strong) NSArray* viewItems;
+@property(nonatomic, strong) SJUserProfileView* userProfileView;
+@property(nonatomic, strong) NSArray* tableItems;
 
 @end
 
@@ -24,13 +25,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.viewItems = @[@(SJMineViewControllerScore),
-                       @(SJMineViewControllerSettings),
-                       @(SJMineViewControllerMessage),
-                       @(SJMineViewControllerFeedback),
-                       @(SJMineViewControllerAbout)];
+    self.tableItems = [self createTableViewItems];
     
     self.userProfileView = [[SJUserProfileView alloc] init];
+    self.userProfileView.delegate = self;
 }
 
 -(void) viewWillAppear:(BOOL)animated
@@ -43,11 +41,22 @@
     [super viewWillDisappear:animated];
 }
 
+-(NSArray*) createTableViewItems
+{
+    SJBaseItem* item1 = [SJBaseItem itemWithTitle:@"评分" tag:SJMineViewControllerScore];
+    SJBaseItem* item2 = [SJBaseItem itemWithTitle:@"设置" tag:SJMineViewControllerSettings];
+    SJBaseItem* item3 = [SJBaseItem itemWithTitle:@"消息" tag:SJMineViewControllerMessage];
+    SJBaseItem* item4 = [SJBaseItem itemWithTitle:@"用户反馈" tag:SJMineViewControllerFeedback];
+    SJBaseItem* item5 = [SJBaseItem itemWithTitle:@"关于" tag:SJMineViewControllerAbout];
+    
+    return @[item1, item2, item3, item4, item5];
+}
+
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return self.viewItems.count;
+    return self.tableItems.count;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -58,36 +67,8 @@
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     }
     
-    SJMineViewControllerItems item = [[self.viewItems objectAtIndex:indexPath.row] intValue];
-    switch (item) {
-        case SJMineViewControllerScore:
-        {
-            cell.textLabel.text = @"评分";
-            break;
-        }
-        case SJMineViewControllerSettings:
-        {
-            cell.textLabel.text = @"设置";
-            break;
-        }
-        case SJMineViewControllerMessage:
-        {
-            cell.textLabel.text = @"消息";
-            break;
-        }
-        case SJMineViewControllerFeedback:
-        {
-            cell.textLabel.text = @"用户反馈";
-            break;
-        }
-        case SJMineViewControllerAbout:
-        {
-            cell.textLabel.text = @"关于";
-            break;
-        }
-        default:
-            break;
-    }
+    SJBaseItem* item = [self.tableItems objectAtIndex:indexPath.row];
+    cell.textLabel.text = item.title;
     
     return cell;
 }
@@ -107,6 +88,49 @@
 - (nullable UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section
 {
     return self.userProfileView;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    SJBaseItem* item = [self.tableItems objectAtIndex:indexPath.row];
+    switch (item.tag) {
+        case SJMineViewControllerScore:
+        {
+            
+            break;
+        }
+        case SJMineViewControllerSettings:
+        {
+            break;
+        }
+        case SJMineViewControllerMessage:
+        {
+            
+            break;
+        }
+        case SJMineViewControllerFeedback:
+        {
+            
+            break;
+        }
+        case SJMineViewControllerAbout:
+        {
+            
+            break;
+        }
+        default:
+            break;
+    }
+}
+
+#pragma mark - SJUserProfileViewDelegate
+
+-(void) userProfileViewDidClickedView:(SJUserProfileView*)view
+{
+    SJRegisterViewController* vc = [[SJRegisterViewController alloc] init];
+    UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:vc];
+//    [self.navigationController pushViewController:navController animated:YES];
+    [self presentViewController:navController animated:YES completion:nil];
 }
 
 @end

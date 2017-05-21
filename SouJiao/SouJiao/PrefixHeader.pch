@@ -17,5 +17,6 @@
 #import "UIView+Frame.h"
 #import "UIDevice+Common.h"
 #import "SJUtility.h"
+#import "SJBaseItem.h"
 
 #endif /* PrefixHeader_pch */

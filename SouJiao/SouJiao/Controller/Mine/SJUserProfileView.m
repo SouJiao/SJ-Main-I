@@ -17,9 +17,21 @@
 
 @implementation SJUserProfileView
 
+-(instancetype) init
+{
+    self = [super init];
+    if (self) {
+        
+    }
+    
+    return self;
+}
+
 -(IBAction) onButtonClicked:(id)sender
 {
-    
+    if (self.delegate && [self.delegate respondsToSelector:@selector(userProfileViewDidClickedView:)]) {
+        [self.delegate userProfileViewDidClickedView:self];
+    }
 }
 
 @end

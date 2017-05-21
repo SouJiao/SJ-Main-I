@@ -7,12 +7,11 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "SJProfiles.h"
+#import "SJUserProfiles.h"
 
 @interface SJUser : NSObject
 
-@property(nonatomic, readonly) SJProfiles* profiles;
+@property(nonatomic, readonly) SJUserProfiles* profiles;
 
-@property(nonatomic, readonly) NSString* name;
 
 @end
