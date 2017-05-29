@@ -7,8 +7,13 @@
 //
 
 #import "SJLoginViewController.h"
+#import "SJRegisterViewController.h"
 
 @interface SJLoginViewController ()
+
+@property(nonatomic, strong) IBOutlet UITextField* accountTextField;
+@property(nonatomic, strong) IBOutlet UITextField* passwordTextField;
+@property(nonatomic, strong) IBOutlet UIButton* button;
 
 @end
 
@@ -16,22 +21,26 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view from its nib.
+    
+    self.button.layer.cornerRadius = 3;
+    self.button.layer.masksToBounds = YES;
+    
+    UIBarButtonItem* item = [[UIBarButtonItem alloc] initWithTitle:@"注册" style:UIBarButtonItemStylePlain target:self action:@selector(onRegisterButtonClicked:)];
+    [item setTintColor:[UIColor blackColor]];
+    self.navigationItem.rightBarButtonItem = item;
+    [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
+    [self.navigationController.navigationBar setBackgroundColor:[UIColor whiteColor]];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(IBAction) onLoginButtonClicked:(id)sender
+{
+    [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+-(void) onRegisterButtonClicked:(id)sender
+{
+    SJRegisterViewController* registViewController = [[SJRegisterViewController alloc] init];
+    [self.navigationController pushViewController:registViewController animated:YES];
 }
-*/
 
 @end

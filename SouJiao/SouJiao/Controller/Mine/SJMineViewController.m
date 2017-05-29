@@ -8,7 +8,7 @@
 
 #import "SJMineViewController.h"
 #import "SJUserProfileView.h"
-#import "SJRegisterViewController.h"
+#import "SJLoginViewController.h"
 
 @interface SJMineViewController () <UITableViewDelegate, UITableViewDataSource, SJUserProfileViewDelegate>
 
@@ -127,10 +127,8 @@
 
 -(void) userProfileViewDidClickedView:(SJUserProfileView*)view
 {
-    SJRegisterViewController* vc = [[SJRegisterViewController alloc] init];
-    UINavigationController* navController = [[UINavigationController alloc] initWithRootViewController:vc];
-//    [self.navigationController pushViewController:navController animated:YES];
-    [self presentViewController:navController animated:YES completion:nil];
+    SJLoginViewController* loginViewController = [[SJLoginViewController alloc] init];
+    [self.parentViewController.navigationController pushViewController:loginViewController animated:YES];
 }
 
 @end

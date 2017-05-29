@@ -27,7 +27,7 @@
                         <action selector="onButtonClicked:" destination="-1" eventType="touchUpInside" id="rv8-BP-frx"/>
                     </connections>
                 </button>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1TF-Zo-PLm">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="reg_fake" translatesAutoresizingMaskIntoConstraints="NO" id="1TF-Zo-PLm">
                     <rect key="frame" x="147.5" y="14" width="80" height="80"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="80" id="9iO-jP-CSB"/>
@@ -58,4 +58,7 @@
             <point key="canvasLocation" x="25.5" y="-213.5"/>
         </view>
     </objects>
+    <resources>
+        <image name="reg_fake" width="92" height="71"/>
+    </resources>
 </document>

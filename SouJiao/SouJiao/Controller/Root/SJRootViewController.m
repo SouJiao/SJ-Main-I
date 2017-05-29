@@ -8,7 +8,6 @@
 
 #import "SJRootViewController.h"
 
-
 @interface SJRootViewController ()
 
 
@@ -18,7 +17,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
     
     self.mineViewController = [[SJMineViewController alloc] init];
     self.mineViewController.tabBarItem.title = @"Mine";
@@ -37,11 +35,15 @@
 -(void) viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
+    
+    [self.navigationController.navigationBar setHidden:YES];
 }
 
 -(void) viewWillDisappear:(BOOL)animated
 {
     [super viewWillDisappear:animated];
+    
+    [self.navigationController.navigationBar setHidden:NO];
 }
 
 -(void) doInitialization

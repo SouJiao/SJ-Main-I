@@ -6,12 +6,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SJRegisterViewController">
             <connections>
-                <outlet property="tableView" destination="abb-hT-fE3" id="hyX-Zs-t3z"/>
+                <outlet property="button1" destination="OqV-rU-NI1" id="mSx-aK-znR"/>
+                <outlet property="button2" destination="U5g-H0-VHX" id="hwx-4q-6qN"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,21 +22,41 @@
             <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="abb-hT-fE3">
-                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OqV-rU-NI1">
+                    <rect key="frame" x="127" y="173.5" width="120" height="120"/>
+                    <color key="backgroundColor" red="0.29164751838235298" green="0.63637408088235292" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="Nbu-4b-hUI"/>
+                        <constraint firstAttribute="width" constant="120" id="oNd-LM-ayS"/>
+                    </constraints>
+                    <state key="normal" title="普通用户注册">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
                     <connections>
-                        <outlet property="dataSource" destination="-1" id="Bcx-Sb-sXd"/>
-                        <outlet property="delegate" destination="-1" id="fuy-XR-eYh"/>
+                        <action selector="onPersonalButtonClicked:" destination="-1" eventType="touchUpInside" id="CD6-Gu-4ec"/>
                     </connections>
-                </tableView>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U5g-H0-VHX">
+                    <rect key="frame" x="127" y="373.5" width="120" height="120"/>
+                    <color key="backgroundColor" red="0.29164751840000003" green="0.63637408090000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="120" id="51T-He-6FM"/>
+                        <constraint firstAttribute="width" constant="120" id="dbS-2z-yvq"/>
+                    </constraints>
+                    <state key="normal" title="商业用户注册">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onOrganzationButtonClicked:" destination="-1" eventType="touchUpInside" id="41b-vS-b9l"/>
+                    </connections>
+                </button>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
-                <constraint firstAttribute="bottom" secondItem="abb-hT-fE3" secondAttribute="bottom" id="Fq5-jF-x4h"/>
-                <constraint firstItem="abb-hT-fE3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="XwL-DB-eJu"/>
-                <constraint firstItem="abb-hT-fE3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="ndj-JO-M07"/>
-                <constraint firstAttribute="trailing" secondItem="abb-hT-fE3" secondAttribute="trailing" id="tGx-h2-hxU"/>
+                <constraint firstItem="OqV-rU-NI1" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="0.7" id="BxN-BR-iKp"/>
+                <constraint firstItem="OqV-rU-NI1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="RdH-Wq-FMy"/>
+                <constraint firstItem="U5g-H0-VHX" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="S5I-dD-xTj"/>
+                <constraint firstItem="U5g-H0-VHX" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" multiplier="1.3" id="b1Y-Fd-NLy"/>
             </constraints>
             <point key="canvasLocation" x="25.5" y="52.5"/>
         </view>

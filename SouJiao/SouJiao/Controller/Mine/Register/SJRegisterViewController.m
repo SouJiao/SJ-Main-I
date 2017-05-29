@@ -7,11 +7,13 @@
 //
 
 #import "SJRegisterViewController.h"
-#import "SJRegisterTableViewCell.h"
+#import "SJPersonalRegViewController.h"
+#import "SJOrganzationRegViewController.h"
 
-@interface SJRegisterViewController () <UITableViewDelegate, UITableViewDataSource>
+@interface SJRegisterViewController ()
 
-@property(nonatomic, strong) IBOutlet UITableView* tableView;
+@property(nonatomic, strong) IBOutlet UIButton* button1;
+@property(nonatomic, strong) IBOutlet UIButton* button2;
 
 @end
 
@@ -20,25 +22,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    [self.tableView registerNib:[UINib nibWithNibName:@"SJRegisterTableViewCell" bundle:nil] forCellReuseIdentifier:@"xxx"];
+
+    self.button1.layer.cornerRadius = 3;
+    self.button1.layer.masksToBounds = YES;
+
+    self.button2.layer.cornerRadius = 3;
+    self.button2.layer.masksToBounds = YES;
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
+-(IBAction) onPersonalButtonClicked:(id)sender
 {
-    return 3;
+    SJPersonalRegViewController* personalRegVC = [[SJPersonalRegViewController alloc] init];
+    [self.navigationController pushViewController:personalRegVC animated:YES];
 }
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
+-(IBAction) onOrganzationButtonClicked:(id)sender
 {
-    SJRegisterTableViewCell* cell = [tableView dequeueReusableCellWithIdentifier:@"xxx" forIndexPath:indexPath];
-    cell.nameLabel.text = @"name";
-    return cell;
+    SJOrganzationRegViewController* organizationRegVC = [[SJOrganzationRegViewController alloc] init];
+    [self.navigationController pushViewController:organizationRegVC animated:YES];
 }
 
 @end

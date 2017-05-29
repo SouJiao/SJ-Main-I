@@ -12,6 +12,11 @@
 		3B14BCBB1ED1CA4D002AC085 /* SJRegisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B14BCB91ED1CA4D002AC085 /* SJRegisterViewController.xib */; };
 		3B14BCBF1ED1CD30002AC085 /* SJRegisterTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B14BCBD1ED1CD30002AC085 /* SJRegisterTableViewCell.m */; };
 		3B14BCC01ED1CD30002AC085 /* SJRegisterTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B14BCBE1ED1CD30002AC085 /* SJRegisterTableViewCell.xib */; };
+		3B6775151EDC4B2500D5720E /* DLNavigationTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6775141EDC4B2500D5720E /* DLNavigationTabBar.m */; };
+		3B6775181EDC4F0000D5720E /* SJLoginSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6775171EDC4F0000D5720E /* SJLoginSelectViewController.m */; };
+		3B67751B1EDC6BEB00D5720E /* SJPersonalRegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B67751A1EDC6BEB00D5720E /* SJPersonalRegViewController.m */; };
+		3B67751F1EDC6C0900D5720E /* SJOrganzationRegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B67751D1EDC6C0900D5720E /* SJOrganzationRegViewController.m */; };
+		3B6775201EDC6C0900D5720E /* SJOrganzationRegViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B67751E1EDC6C0900D5720E /* SJOrganzationRegViewController.xib */; };
 		3B857D021EC751D200764354 /* SJLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B857CFB1EC751D200764354 /* SJLoginViewController.m */; };
 		3B857D031EC751D200764354 /* SJLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B857CFC1EC751D200764354 /* SJLoginViewController.xib */; };
 		3B857D061EC751D200764354 /* SJMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B857D011EC751D200764354 /* SJMineViewController.m */; };
@@ -52,6 +57,15 @@
 		3B14BCBC1ED1CD30002AC085 /* SJRegisterTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRegisterTableViewCell.h; sourceTree = "<group>"; };
 		3B14BCBD1ED1CD30002AC085 /* SJRegisterTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRegisterTableViewCell.m; sourceTree = "<group>"; };
 		3B14BCBE1ED1CD30002AC085 /* SJRegisterTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJRegisterTableViewCell.xib; sourceTree = "<group>"; };
+		3B6775131EDC4B2500D5720E /* DLNavigationTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNavigationTabBar.h; sourceTree = "<group>"; };
+		3B6775141EDC4B2500D5720E /* DLNavigationTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNavigationTabBar.m; sourceTree = "<group>"; };
+		3B6775161EDC4F0000D5720E /* SJLoginSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLoginSelectViewController.h; sourceTree = "<group>"; };
+		3B6775171EDC4F0000D5720E /* SJLoginSelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLoginSelectViewController.m; sourceTree = "<group>"; };
+		3B6775191EDC6BEB00D5720E /* SJPersonalRegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJPersonalRegViewController.h; sourceTree = "<group>"; };
+		3B67751A1EDC6BEB00D5720E /* SJPersonalRegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJPersonalRegViewController.m; sourceTree = "<group>"; };
+		3B67751C1EDC6C0900D5720E /* SJOrganzationRegViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJOrganzationRegViewController.h; sourceTree = "<group>"; };
+		3B67751D1EDC6C0900D5720E /* SJOrganzationRegViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJOrganzationRegViewController.m; sourceTree = "<group>"; };
+		3B67751E1EDC6C0900D5720E /* SJOrganzationRegViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJOrganzationRegViewController.xib; sourceTree = "<group>"; };
 		3B857CFA1EC751D200764354 /* SJLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLoginViewController.h; sourceTree = "<group>"; };
 		3B857CFB1EC751D200764354 /* SJLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLoginViewController.m; sourceTree = "<group>"; };
 		3B857CFC1EC751D200764354 /* SJLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJLoginViewController.xib; sourceTree = "<group>"; };
@@ -64,7 +78,7 @@
 		3B89250B1EAB5C710039A208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B89250D1EAB5C710039A208 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3B89250E1EAB5C710039A208 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3B8925161EAB5C720039A208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3B8925161EAB5C720039A208 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		3B8925191EAB5C720039A208 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3B89251B1EAB5C720039A208 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BA0CE1D1EC821C2003F37F8 /* SJMineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJMineViewController.xib; sourceTree = "<group>"; };
@@ -132,6 +146,8 @@
 		3B14BCB21ED1C229002AC085 /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				3B6775131EDC4B2500D5720E /* DLNavigationTabBar.h */,
+				3B6775141EDC4B2500D5720E /* DLNavigationTabBar.m */,
 				3B14BCB31ED1C248002AC085 /* SJBaseItem.h */,
 				3B14BCB41ED1C248002AC085 /* SJBaseItem.m */,
 			);
@@ -147,8 +163,21 @@
 				3B14BCBC1ED1CD30002AC085 /* SJRegisterTableViewCell.h */,
 				3B14BCBD1ED1CD30002AC085 /* SJRegisterTableViewCell.m */,
 				3B14BCBE1ED1CD30002AC085 /* SJRegisterTableViewCell.xib */,
+				3B6775191EDC6BEB00D5720E /* SJPersonalRegViewController.h */,
+				3B67751A1EDC6BEB00D5720E /* SJPersonalRegViewController.m */,
+				3B67751C1EDC6C0900D5720E /* SJOrganzationRegViewController.h */,
+				3B67751D1EDC6C0900D5720E /* SJOrganzationRegViewController.m */,
+				3B67751E1EDC6C0900D5720E /* SJOrganzationRegViewController.xib */,
 			);
 			path = Register;
+			sourceTree = "<group>";
+		};
+		3B6775121EDC139300D5720E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3B8925161EAB5C720039A208 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		3B857CF81EC7518F00764354 /* Mine */ = {
@@ -159,6 +188,8 @@
 				3B857D001EC751D200764354 /* SJMineViewController.h */,
 				3B857D011EC751D200764354 /* SJMineViewController.m */,
 				3BA0CE1D1EC821C2003F37F8 /* SJMineViewController.xib */,
+				3B6775161EDC4F0000D5720E /* SJLoginSelectViewController.h */,
+				3B6775171EDC4F0000D5720E /* SJLoginSelectViewController.m */,
 				3BA0CE1F1EC82534003F37F8 /* SJUserProfileView.h */,
 				3BA0CE201EC82534003F37F8 /* SJUserProfileView.m */,
 				3BA0CE291EC82583003F37F8 /* SJUserProfileView.xib */,
@@ -214,13 +245,13 @@
 		3B8925091EAB5C710039A208 /* SouJiao */ = {
 			isa = PBXGroup;
 			children = (
+				3B6775121EDC139300D5720E /* Resources */,
 				3B14BCB21ED1C229002AC085 /* Public */,
 				3BA0CE341EC8972C003F37F8 /* Common */,
 				3BE7EDDC1EACB54C00B73832 /* Controller */,
 				3BE7EDC01EACAFDD00B73832 /* Modules */,
 				3B89250D1EAB5C710039A208 /* AppDelegate.h */,
 				3B89250E1EAB5C710039A208 /* AppDelegate.m */,
-				3B8925161EAB5C720039A208 /* Assets.xcassets */,
 				3B8925181EAB5C720039A208 /* LaunchScreen.storyboard */,
 				3B89251B1EAB5C720039A208 /* Info.plist */,
 				3B89250A1EAB5C710039A208 /* Supporting Files */,
@@ -427,6 +458,7 @@
 				3BA0CE1E1EC821C2003F37F8 /* SJMineViewController.xib in Resources */,
 				3B857D031EC751D200764354 /* SJLoginViewController.xib in Resources */,
 				3B14BCBB1ED1CA4D002AC085 /* SJRegisterViewController.xib in Resources */,
+				3B6775201EDC6C0900D5720E /* SJOrganzationRegViewController.xib in Resources */,
 				3B89251A1EAB5C720039A208 /* LaunchScreen.storyboard in Resources */,
 				3BE7EDF81EACE45A00B73832 /* SJMainViewController.xib in Resources */,
 				3B8925171EAB5C720039A208 /* Assets.xcassets in Resources */,
@@ -497,14 +529,18 @@
 				3BA0CE211EC82534003F37F8 /* SJUserProfileView.m in Sources */,
 				3BE7EDD31EACB11A00B73832 /* SJUser.m in Sources */,
 				3B14BCBA1ED1CA4D002AC085 /* SJRegisterViewController.m in Sources */,
+				3B67751F1EDC6C0900D5720E /* SJOrganzationRegViewController.m in Sources */,
+				3B67751B1EDC6BEB00D5720E /* SJPersonalRegViewController.m in Sources */,
 				3BA0CE2E1EC84EF7003F37F8 /* SJSearchManager.m in Sources */,
 				3BA0CE3A1EC897D7003F37F8 /* UIDevice+Common.m in Sources */,
 				3B857D0C1EC7521600764354 /* SJAdvertiseViewController.m in Sources */,
 				3B14BCBF1ED1CD30002AC085 /* SJRegisterTableViewCell.m in Sources */,
 				3BA0CE3D1EC89869003F37F8 /* UIView+Frame.m in Sources */,
+				3B6775151EDC4B2500D5720E /* DLNavigationTabBar.m in Sources */,
 				3B857D021EC751D200764354 /* SJLoginViewController.m in Sources */,
 				3B14BCB51ED1C248002AC085 /* SJBaseItem.m in Sources */,
 				3BA0CE401EC89A64003F37F8 /* SJUtility.m in Sources */,
+				3B6775181EDC4F0000D5720E /* SJLoginSelectViewController.m in Sources */,
 				3B89250F1EAB5C710039A208 /* AppDelegate.m in Sources */,
 				3BE7EDE81EACB68B00B73832 /* SJMainViewController.m in Sources */,
 				3B89250C1EAB5C710039A208 /* main.m in Sources */,

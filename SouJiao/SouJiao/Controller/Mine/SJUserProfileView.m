@@ -21,7 +21,8 @@
 {
     self = [super init];
     if (self) {
-        
+        self.imageView.layer.cornerRadius = self.imageView.frame.size.width * 0.5;
+        self.imageView.layer.masksToBounds = YES;
     }
     
     return self;
