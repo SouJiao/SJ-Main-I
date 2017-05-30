@@ -7,8 +7,14 @@
 //
 
 #import "SJPersonalRegViewController.h"
+#import "SJRegisterInputView.h"
 
 @interface SJPersonalRegViewController ()
+
+@property(nonatomic, strong) IBOutlet SJRegisterInputView* inputView1;
+@property(nonatomic, strong) IBOutlet SJRegisterInputView* inputView2;
+@property(nonatomic, strong) IBOutlet SJRegisterInputView* inputView3;
+@property(nonatomic, strong) IBOutlet SJRegisterInputView* inputView4;
 
 @end
 

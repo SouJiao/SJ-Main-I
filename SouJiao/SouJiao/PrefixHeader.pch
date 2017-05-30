@@ -16,6 +16,10 @@
 
 #import "UIView+Frame.h"
 #import "UIDevice+Common.h"
+#import "UIColor+CustomColor.h"
+
+
+
 #import "SJUtility.h"
 #import "SJBaseItem.h"
 

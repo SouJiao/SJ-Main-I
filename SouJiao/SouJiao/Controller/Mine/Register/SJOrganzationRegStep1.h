@@ -1,5 +1,5 @@
 //
-//  SJOrganzationRegViewController.h
+//  SJOrganzationRegStep1.h
 //  SouJiao
 //
 //  Created by Ares on 2017/5/29.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SJOrganzationRegViewController : UIViewController
+@interface SJOrganzationRegStep1 : UIViewController
 
 @end

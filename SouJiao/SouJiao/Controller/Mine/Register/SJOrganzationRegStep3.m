@@ -1,18 +1,18 @@
 //
-//  SJOrganzationRegViewController.m
+//  SJOrganzationRegStep3.m
 //  SouJiao
 //
-//  Created by Ares on 2017/5/29.
+//  Created by Ares on 2017/5/30.
 //  Copyright © 2017年 Ares. All rights reserved.
 //
 
-#import "SJOrganzationRegViewController.h"
+#import "SJOrganzationRegStep3.h"
 
-@interface SJOrganzationRegViewController ()
+@interface SJOrganzationRegStep3 ()
 
 @end
 
-@implementation SJOrganzationRegViewController
+@implementation SJOrganzationRegStep3
 
 - (void)viewDidLoad {
     [super viewDidLoad];

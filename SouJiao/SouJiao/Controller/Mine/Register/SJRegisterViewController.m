@@ -8,7 +8,7 @@
 
 #import "SJRegisterViewController.h"
 #import "SJPersonalRegViewController.h"
-#import "SJOrganzationRegViewController.h"
+#import "SJOrganzationRegStep4.h"
 
 @interface SJRegisterViewController ()
 
@@ -38,8 +38,9 @@
 
 -(IBAction) onOrganzationButtonClicked:(id)sender
 {
-    SJOrganzationRegViewController* organizationRegVC = [[SJOrganzationRegViewController alloc] init];
-    [self.navigationController pushViewController:organizationRegVC animated:YES];
+//    SJOrganzationRegStep1* organizationRegVC = [[SJOrganzationRegStep1 alloc] init];
+    SJOrganzationRegStep4* step4 = [[SJOrganzationRegStep4 alloc] init];
+    [self.navigationController pushViewController:step4 animated:YES];
 }
 
 @end
