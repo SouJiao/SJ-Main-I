@@ -10,6 +10,8 @@
 
 typedef NS_ENUM(NSInteger, SJMineViewControllerItems)
 {
+    // 机构中心
+    SJMineViewControllerOrganization,
     // 评分
     SJMineViewControllerScore,
     // 设置

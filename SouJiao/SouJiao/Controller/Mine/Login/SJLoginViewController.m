@@ -22,14 +22,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    self.button.layer.cornerRadius = 3;
+    self.button.layer.cornerRadius = DEFAULT_BUTTON_CORNER_RADIUS;
     self.button.layer.masksToBounds = YES;
     
-    UIBarButtonItem* item = [[UIBarButtonItem alloc] initWithTitle:@"注册" style:UIBarButtonItemStylePlain target:self action:@selector(onRegisterButtonClicked:)];
-    [item setTintColor:[UIColor blackColor]];
-    self.navigationItem.rightBarButtonItem = item;
-    [self.navigationController.navigationBar setTintColor:[UIColor blackColor]];
-    [self.navigationController.navigationBar setBackgroundColor:[UIColor whiteColor]];
 }
 
 -(IBAction) onLoginButtonClicked:(id)sender
@@ -37,10 +32,15 @@
     [self.navigationController popToRootViewControllerAnimated:YES];
 }
 
--(void) onRegisterButtonClicked:(id)sender
+-(IBAction) onRegisterButtonClicked:(id)sender
 {
     SJRegisterViewController* registViewController = [[SJRegisterViewController alloc] init];
     [self.navigationController pushViewController:registViewController animated:YES];
+}
+
+-(IBAction) onFogetPasswordButtonClicked:(id)sender
+{
+    
 }
 
 @end

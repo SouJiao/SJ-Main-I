@@ -23,11 +23,33 @@
 {
     [super awakeFromNib];
     
+    [self setTitle:nil];
+    [self setInputValue:nil];
+    
     [[NSBundle mainBundle] loadNibNamed:@"SJRegisterInputView" owner:self options:nil];
     [self addSubview:_view];
     [_view mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self);
     }];
 }
+
+-(void) setTitle:(NSString *)title
+{
+    _title = title;
+    self.titleLabel.text = title;
+}
+
+-(void) setInputValue:(NSString *)inputValue
+{
+    _inputValue = inputValue;
+    self.inputTextField.text = inputValue;
+}
+
+-(void) setSecureInput:(BOOL)secureInput
+{
+    _secureInput = secureInput;
+    [self.inputTextField setSecureTextEntry:secureInput];
+}
+
 
 @end

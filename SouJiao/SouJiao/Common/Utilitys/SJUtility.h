@@ -22,3 +22,6 @@
 
 // Block安全调用
 #define SafeBlock(block, ...) if (block) block(__VA_ARGS__);
+
+//
+typedef void(^SJClickHandler)(id sender);

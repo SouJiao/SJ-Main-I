@@ -34,6 +34,9 @@
 		3B857D061EC751D200764354 /* SJMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B857D011EC751D200764354 /* SJMineViewController.m */; };
 		3B857D0C1EC7521600764354 /* SJAdvertiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B857D091EC7521600764354 /* SJAdvertiseViewController.m */; };
 		3B857D0D1EC7521600764354 /* SJAdvertiseViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B857D0A1EC7521600764354 /* SJAdvertiseViewController.xib */; };
+		3B88969A1EE3B53600ACE9A4 /* SJRegisterValidateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B8896991EE3B53600ACE9A4 /* SJRegisterValidateView.m */; };
+		3B88969C1EE3B54300ACE9A4 /* SJRegisterValidateView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B88969B1EE3B54300ACE9A4 /* SJRegisterValidateView.xib */; };
+		3B88969F1EE3C58D00ACE9A4 /* SJDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B88969E1EE3C58D00ACE9A4 /* SJDefaults.m */; };
 		3B89250C1EAB5C710039A208 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B89250B1EAB5C710039A208 /* main.m */; };
 		3B89250F1EAB5C710039A208 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B89250E1EAB5C710039A208 /* AppDelegate.m */; };
 		3B8925171EAB5C720039A208 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B8925161EAB5C720039A208 /* Assets.xcassets */; };
@@ -49,6 +52,7 @@
 		3BA0CE3A1EC897D7003F37F8 /* UIDevice+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CE391EC897D7003F37F8 /* UIDevice+Common.m */; };
 		3BA0CE3D1EC89869003F37F8 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CE3C1EC89869003F37F8 /* UIView+Frame.m */; };
 		3BA0CE401EC89A64003F37F8 /* SJUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CE3F1EC89A64003F37F8 /* SJUtility.m */; };
+		3BD12A8B1EE44D5600066D1D /* SJOrganzationCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD12A891EE44D5600066D1D /* SJOrganzationCenterViewController.m */; };
 		3BE7EDD11EACB11A00B73832 /* SJBusinessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDCC1EACB11A00B73832 /* SJBusinessUser.m */; };
 		3BE7EDD21EACB11A00B73832 /* SJGeneralUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDCE1EACB11A00B73832 /* SJGeneralUser.m */; };
 		3BE7EDD31EACB11A00B73832 /* SJUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDD01EACB11A00B73832 /* SJUser.m */; };
@@ -104,6 +108,11 @@
 		3B857D081EC7521600764354 /* SJAdvertiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJAdvertiseViewController.h; sourceTree = "<group>"; };
 		3B857D091EC7521600764354 /* SJAdvertiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJAdvertiseViewController.m; sourceTree = "<group>"; };
 		3B857D0A1EC7521600764354 /* SJAdvertiseViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJAdvertiseViewController.xib; sourceTree = "<group>"; };
+		3B8896981EE3B53600ACE9A4 /* SJRegisterValidateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRegisterValidateView.h; sourceTree = "<group>"; };
+		3B8896991EE3B53600ACE9A4 /* SJRegisterValidateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRegisterValidateView.m; sourceTree = "<group>"; };
+		3B88969B1EE3B54300ACE9A4 /* SJRegisterValidateView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJRegisterValidateView.xib; sourceTree = "<group>"; };
+		3B88969D1EE3C58D00ACE9A4 /* SJDefaults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJDefaults.h; sourceTree = "<group>"; };
+		3B88969E1EE3C58D00ACE9A4 /* SJDefaults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJDefaults.m; sourceTree = "<group>"; };
 		3B8925071EAB5C710039A208 /* SouJiao.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SouJiao.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B89250B1EAB5C710039A208 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3B89250D1EAB5C710039A208 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,6 +140,8 @@
 		3BA0CE3C1EC89869003F37F8 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
 		3BA0CE3E1EC89A64003F37F8 /* SJUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJUtility.h; sourceTree = "<group>"; };
 		3BA0CE3F1EC89A64003F37F8 /* SJUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJUtility.m; sourceTree = "<group>"; };
+		3BD12A881EE44D5600066D1D /* SJOrganzationCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJOrganzationCenterViewController.h; sourceTree = "<group>"; };
+		3BD12A891EE44D5600066D1D /* SJOrganzationCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJOrganzationCenterViewController.m; sourceTree = "<group>"; };
 		3BE7EDCB1EACB11A00B73832 /* SJBusinessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJBusinessUser.h; sourceTree = "<group>"; };
 		3BE7EDCC1EACB11A00B73832 /* SJBusinessUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJBusinessUser.m; sourceTree = "<group>"; };
 		3BE7EDCD1EACB11A00B73832 /* SJGeneralUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJGeneralUser.h; sourceTree = "<group>"; };
@@ -211,6 +222,9 @@
 				3B60FC8C1EDDB58B002F17B9 /* SJRegisterInputView.h */,
 				3B60FC8D1EDDB58B002F17B9 /* SJRegisterInputView.m */,
 				3B60FC8F1EDDB5A8002F17B9 /* SJRegisterInputView.xib */,
+				3B8896981EE3B53600ACE9A4 /* SJRegisterValidateView.h */,
+				3B8896991EE3B53600ACE9A4 /* SJRegisterValidateView.m */,
+				3B88969B1EE3B54300ACE9A4 /* SJRegisterValidateView.xib */,
 			);
 			path = Register;
 			sourceTree = "<group>";
@@ -236,6 +250,7 @@
 		3B857CF81EC7518F00764354 /* Mine */ = {
 			isa = PBXGroup;
 			children = (
+				3BD12A871EE44D3800066D1D /* OrganzationCenter */,
 				3B14BCB61ED1CA14002AC085 /* Register */,
 				3B857CF91EC751D200764354 /* Login */,
 				3B857D001EC751D200764354 /* SJMineViewController.h */,
@@ -359,8 +374,19 @@
 			children = (
 				3BA0CE3E1EC89A64003F37F8 /* SJUtility.h */,
 				3BA0CE3F1EC89A64003F37F8 /* SJUtility.m */,
+				3B88969D1EE3C58D00ACE9A4 /* SJDefaults.h */,
+				3B88969E1EE3C58D00ACE9A4 /* SJDefaults.m */,
 			);
 			path = Utilitys;
+			sourceTree = "<group>";
+		};
+		3BD12A871EE44D3800066D1D /* OrganzationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				3BD12A881EE44D5600066D1D /* SJOrganzationCenterViewController.h */,
+				3BD12A891EE44D5600066D1D /* SJOrganzationCenterViewController.m */,
+			);
+			path = OrganzationCenter;
 			sourceTree = "<group>";
 		};
 		3BE7EDC01EACAFDD00B73832 /* Modules */ = {
@@ -524,6 +550,7 @@
 				3B40C8811EDD189B002BE89C /* SJOrganzationRegStep3.xib in Resources */,
 				3B8925171EAB5C720039A208 /* Assets.xcassets in Resources */,
 				3BA0CE2A1EC82583003F37F8 /* SJUserProfileView.xib in Resources */,
+				3B88969C1EE3B54300ACE9A4 /* SJRegisterValidateView.xib in Resources */,
 				3B857D0D1EC7521600764354 /* SJAdvertiseViewController.xib in Resources */,
 				3B40C8771EDD17F1002BE89C /* SJMapViewController.xib in Resources */,
 				3B14BCC01ED1CD30002AC085 /* SJRegisterTableViewCell.xib in Resources */,
@@ -588,11 +615,13 @@
 				3BE7EDE51EACB67100B73832 /* SJRootViewController.m in Sources */,
 				3BA0CE331EC851D7003F37F8 /* SJUserManager.m in Sources */,
 				3BE7EDDB1EACB2DD00B73832 /* SJLoginCenter.m in Sources */,
+				3BD12A8B1EE44D5600066D1D /* SJOrganzationCenterViewController.m in Sources */,
 				3BA0CE211EC82534003F37F8 /* SJUserProfileView.m in Sources */,
 				3BE7EDD31EACB11A00B73832 /* SJUser.m in Sources */,
 				3B14BCBA1ED1CA4D002AC085 /* SJRegisterViewController.m in Sources */,
 				3B40C8851EDD1A19002BE89C /* SJOrganzationRegStep4.m in Sources */,
 				3B40C8801EDD189B002BE89C /* SJOrganzationRegStep3.m in Sources */,
+				3B88969F1EE3C58D00ACE9A4 /* SJDefaults.m in Sources */,
 				3B67751F1EDC6C0900D5720E /* SJOrganzationRegStep1.m in Sources */,
 				3B67751B1EDC6BEB00D5720E /* SJPersonalRegViewController.m in Sources */,
 				3BA0CE2E1EC84EF7003F37F8 /* SJSearchManager.m in Sources */,
@@ -613,6 +642,7 @@
 				3B89250C1EAB5C710039A208 /* main.m in Sources */,
 				3B60FC8E1EDDB58B002F17B9 /* SJRegisterInputView.m in Sources */,
 				3BA0CE281EC82565003F37F8 /* SJBaseView.m in Sources */,
+				3B88969A1EE3B53600ACE9A4 /* SJRegisterValidateView.m in Sources */,
 				3BE7EDD11EACB11A00B73832 /* SJBusinessUser.m in Sources */,
 				3BA0CE251EC82554003F37F8 /* SJBaseViewController.m in Sources */,
 				3BE7EDD21EACB11A00B73832 /* SJGeneralUser.m in Sources */,

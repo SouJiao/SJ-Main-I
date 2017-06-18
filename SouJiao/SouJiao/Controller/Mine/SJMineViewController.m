@@ -9,6 +9,9 @@
 #import "SJMineViewController.h"
 #import "SJUserProfileView.h"
 #import "SJLoginViewController.h"
+#import "SJOrganzationCenterViewController.h"
+
+#import "SJOrganzationRegStep4.h"
 
 @interface SJMineViewController () <UITableViewDelegate, UITableViewDataSource, SJUserProfileViewDelegate>
 
@@ -43,13 +46,14 @@
 
 -(NSArray*) createTableViewItems
 {
+    SJBaseItem* item0 = [SJBaseItem itemWithTitle:@"机构中心" tag:SJMineViewControllerOrganization];
     SJBaseItem* item1 = [SJBaseItem itemWithTitle:@"评分" tag:SJMineViewControllerScore];
     SJBaseItem* item2 = [SJBaseItem itemWithTitle:@"设置" tag:SJMineViewControllerSettings];
     SJBaseItem* item3 = [SJBaseItem itemWithTitle:@"消息" tag:SJMineViewControllerMessage];
     SJBaseItem* item4 = [SJBaseItem itemWithTitle:@"用户反馈" tag:SJMineViewControllerFeedback];
     SJBaseItem* item5 = [SJBaseItem itemWithTitle:@"关于" tag:SJMineViewControllerAbout];
     
-    return @[item1, item2, item3, item4, item5];
+    return @[item0, item1, item2, item3, item4, item5];
 }
 
 #pragma mark - UITableViewDataSource
@@ -94,6 +98,12 @@
 {
     SJBaseItem* item = [self.tableItems objectAtIndex:indexPath.row];
     switch (item.tag) {
+        case SJMineViewControllerOrganization:
+        {
+            SJOrganzationCenterViewController* orgCenter = [[SJOrganzationCenterViewController alloc] initWithStyle:UITableViewStyleGrouped];
+            [self.navigationController pushViewController:orgCenter animated:YES];
+            break;
+        }
         case SJMineViewControllerScore:
         {
             

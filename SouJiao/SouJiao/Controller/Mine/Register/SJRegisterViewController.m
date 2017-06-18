@@ -7,13 +7,18 @@
 //
 
 #import "SJRegisterViewController.h"
-#import "SJPersonalRegViewController.h"
-#import "SJOrganzationRegStep4.h"
+#import "SJRegisterInputView.h"
+#import "SJRegisterValidateView.h"
 
 @interface SJRegisterViewController ()
 
-@property(nonatomic, strong) IBOutlet UIButton* button1;
-@property(nonatomic, strong) IBOutlet UIButton* button2;
+@property(nonatomic, strong) IBOutlet SJRegisterInputView* accountInputView;
+@property(nonatomic, strong) IBOutlet SJRegisterInputView* passwordInputView1;
+@property(nonatomic, strong) IBOutlet SJRegisterInputView* passwordInputView2;
+@property(nonatomic, strong) IBOutlet SJRegisterInputView* mobileInputView;
+@property(nonatomic, strong) IBOutlet SJRegisterValidateView* validateCodeInputView;
+
+@property(nonatomic, strong) IBOutlet UIButton* registerButton;
 
 @end
 
@@ -23,24 +28,24 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
 
-    self.button1.layer.cornerRadius = 3;
-    self.button1.layer.masksToBounds = YES;
-
-    self.button2.layer.cornerRadius = 3;
-    self.button2.layer.masksToBounds = YES;
+    self.accountInputView.title = @"用户名：";
+    self.passwordInputView1.title = @"密码：";
+    self.passwordInputView1.secureInput = YES;
+    self.passwordInputView2.title = @"确认密码：";
+    self.passwordInputView2.secureInput = YES;
+    self.mobileInputView.title = @"手机号码：";
+    self.validateCodeInputView.title = @"验证码：";
+    
+    self.navigationItem.title = @"用户注册";
+    
+    self.registerButton.layer.cornerRadius = DEFAULT_BUTTON_CORNER_RADIUS;
+    self.registerButton.layer.masksToBounds = YES;
 }
 
--(IBAction) onPersonalButtonClicked:(id)sender
+-(IBAction) onRegisterButtonClicked:(id)sender
 {
-    SJPersonalRegViewController* personalRegVC = [[SJPersonalRegViewController alloc] init];
-    [self.navigationController pushViewController:personalRegVC animated:YES];
+
 }
 
--(IBAction) onOrganzationButtonClicked:(id)sender
-{
-//    SJOrganzationRegStep1* organizationRegVC = [[SJOrganzationRegStep1 alloc] init];
-    SJOrganzationRegStep4* step4 = [[SJOrganzationRegStep4 alloc] init];
-    [self.navigationController pushViewController:step4 animated:YES];
-}
 
 @end

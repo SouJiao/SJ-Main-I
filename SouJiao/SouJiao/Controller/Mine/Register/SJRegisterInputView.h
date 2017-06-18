@@ -10,4 +10,8 @@
 
 @interface SJRegisterInputView : UIView
 
+@property(nonatomic, strong) NSString* title;
+@property(nonatomic, strong) NSString* inputValue;
+
+@property(nonatomic, assign) BOOL secureInput;
 @end

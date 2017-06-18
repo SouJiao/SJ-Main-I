@@ -23,7 +23,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    
+    self.inputView1.title = @"手机号码：";
+    self.inputView2.title = @"密码：";
+    self.inputView3.title = @"确认密码：";
+    self.inputView4.title = @"手机验证码";
 }
 
 - (void)didReceiveMemoryWarning {

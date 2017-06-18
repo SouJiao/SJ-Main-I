@@ -21,6 +21,7 @@
 
 
 #import "SJUtility.h"
+#import "SJDefaults.h"
 #import "SJBaseItem.h"
 
 #endif /* PrefixHeader_pch */
