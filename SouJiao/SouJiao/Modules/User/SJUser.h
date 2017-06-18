@@ -9,9 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "SJUserProfiles.h"
 
+@class SJOrganization;
+
 @interface SJUser : NSObject
 
 @property(nonatomic, readonly) SJUserProfiles* profiles;
+@property(nonatomic, readonly) NSArray<SJOrganization*>* organizations;
 
 
 @end

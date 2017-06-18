@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
         <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SJRegisterViewController">
             <connections>
-                <outlet property="accountInputView" destination="M4v-Wd-giF" id="60y-kZ-efB"/>
-                <outlet property="mobileInputView" destination="4AR-VN-rZB" id="plq-dq-MjH"/>
+                <outlet property="mobileInputView" destination="M4v-Wd-giF" id="reg-nf-jCF"/>
                 <outlet property="passwordInputView1" destination="mka-EB-3Wn" id="IHS-bt-RKw"/>
                 <outlet property="passwordInputView2" destination="73Q-LF-Y4a" id="17h-tZ-wxZ"/>
                 <outlet property="registerButton" destination="Vf4-Vc-saj" id="2ga-VN-TXL"/>
@@ -47,22 +46,15 @@
                         <constraint firstAttribute="height" constant="42" id="yEo-vG-V39"/>
                     </constraints>
                 </view>
-                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4AR-VN-rZB" customClass="SJRegisterInputView">
-                    <rect key="frame" x="0.0" y="254" width="375" height="42"/>
-                    <color key="backgroundColor" red="0.7787043723" green="1" blue="0.12550372949999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="42" id="4AY-Eo-jUl"/>
-                    </constraints>
-                </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yCH-3j-T4j" customClass="SJRegisterValidateView">
-                    <rect key="frame" x="0.0" y="306" width="375" height="42"/>
+                    <rect key="frame" x="0.0" y="254" width="375" height="42"/>
                     <color key="backgroundColor" red="0.7787043723" green="1" blue="0.12550372949999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="42" id="hh3-km-Ilt"/>
                     </constraints>
                 </view>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vf4-Vc-saj">
-                    <rect key="frame" x="47" y="402" width="281" height="45"/>
+                    <rect key="frame" x="47" y="350" width="281" height="45"/>
                     <color key="backgroundColor" red="0.29164751840000003" green="0.63637408090000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="45" id="RXz-tI-TE1"/>
@@ -80,20 +72,17 @@
                 <constraint firstItem="Vf4-Vc-saj" firstAttribute="top" secondItem="yCH-3j-T4j" secondAttribute="bottom" constant="54" id="42s-QW-fUI"/>
                 <constraint firstAttribute="trailing" secondItem="73Q-LF-Y4a" secondAttribute="trailing" id="5NT-KI-xpq"/>
                 <constraint firstItem="mka-EB-3Wn" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Asg-HF-WrQ"/>
+                <constraint firstItem="yCH-3j-T4j" firstAttribute="top" secondItem="73Q-LF-Y4a" secondAttribute="bottom" constant="10" id="CPi-XP-Wkh"/>
                 <constraint firstItem="mka-EB-3Wn" firstAttribute="top" secondItem="M4v-Wd-giF" secondAttribute="bottom" constant="10" id="DCE-nf-DBD"/>
                 <constraint firstItem="yCH-3j-T4j" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="FMt-cc-uNj"/>
                 <constraint firstItem="M4v-Wd-giF" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="G8B-7L-hJ7"/>
-                <constraint firstAttribute="trailing" secondItem="4AR-VN-rZB" secondAttribute="trailing" id="P4k-x2-oHw"/>
                 <constraint firstAttribute="trailing" secondItem="M4v-Wd-giF" secondAttribute="trailing" id="QdA-dD-ktk"/>
                 <constraint firstAttribute="trailing" secondItem="yCH-3j-T4j" secondAttribute="trailing" id="Rl1-N5-xQq"/>
-                <constraint firstItem="4AR-VN-rZB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Szb-vm-Zf1"/>
-                <constraint firstItem="yCH-3j-T4j" firstAttribute="top" secondItem="4AR-VN-rZB" secondAttribute="bottom" constant="10" id="TBq-sq-4OL"/>
                 <constraint firstItem="Vf4-Vc-saj" firstAttribute="width" secondItem="i5M-Pr-FkT" secondAttribute="width" multiplier="0.75" id="aPp-39-sev"/>
                 <constraint firstItem="73Q-LF-Y4a" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="aVh-oK-JRJ"/>
                 <constraint firstAttribute="trailing" secondItem="mka-EB-3Wn" secondAttribute="trailing" id="eLS-TC-S85"/>
                 <constraint firstItem="M4v-Wd-giF" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="98" id="irw-Vm-tlM"/>
                 <constraint firstItem="Vf4-Vc-saj" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="kla-LT-cI1"/>
-                <constraint firstItem="4AR-VN-rZB" firstAttribute="top" secondItem="73Q-LF-Y4a" secondAttribute="bottom" constant="10" id="uxF-qe-yXk"/>
                 <constraint firstItem="73Q-LF-Y4a" firstAttribute="top" secondItem="mka-EB-3Wn" secondAttribute="bottom" constant="10" id="ydf-7y-uHI"/>
             </constraints>
             <point key="canvasLocation" x="25.5" y="52.5"/>

@@ -61,6 +61,17 @@
 		3BE7EDE51EACB67100B73832 /* SJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDE41EACB67100B73832 /* SJRootViewController.m */; };
 		3BE7EDE81EACB68B00B73832 /* SJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDE71EACB68B00B73832 /* SJMainViewController.m */; };
 		3BE7EDF81EACE45A00B73832 /* SJMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BE7EDF71EACE45A00B73832 /* SJMainViewController.xib */; };
+		3BFDBDE31EF673FA00BE8B3F /* SJValidationCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFDBDE21EF673FA00BE8B3F /* SJValidationCodeView.m */; };
+		3BFDBDE61EF6786400BE8B3F /* SJValidationCodeInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFDBDE51EF6786400BE8B3F /* SJValidationCodeInputView.m */; };
+		3BFDBDE81EF6787300BE8B3F /* SJValidationCodeInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BFDBDE71EF6787300BE8B3F /* SJValidationCodeInputView.xib */; };
+		3BFDBDED1EF69D7900BE8B3F /* SJOrganizationDisplayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFDBDEB1EF69D7900BE8B3F /* SJOrganizationDisplayCell.m */; };
+		3BFDBDEE1EF69D7A00BE8B3F /* SJOrganizationDisplayCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BFDBDEC1EF69D7900BE8B3F /* SJOrganizationDisplayCell.xib */; };
+		3BFDBDF21EF6B8CD00BE8B3F /* SJOrganizationPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFDBDF01EF6B8CD00BE8B3F /* SJOrganizationPreviewController.m */; };
+		3BFDBDF31EF6B8CD00BE8B3F /* SJOrganizationPreviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BFDBDF11EF6B8CD00BE8B3F /* SJOrganizationPreviewController.xib */; };
+		3BFDBDF71EF6B9C000BE8B3F /* SJOrganization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFDBDF61EF6B9C000BE8B3F /* SJOrganization.m */; };
+		3BFDBDFB1EF6BAB100BE8B3F /* SJEducationOrganization.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFDBDFA1EF6BAB100BE8B3F /* SJEducationOrganization.m */; };
+		3BFDBDFE1EF6C2C500BE8B3F /* SJOrganizationHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BFDBDFD1EF6C2C500BE8B3F /* SJOrganizationHeaderView.m */; };
+		3BFDBE001EF6C2D200BE8B3F /* SJOrganizationHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BFDBDFF1EF6C2D200BE8B3F /* SJOrganizationHeaderView.xib */; };
 		5FEB04B5DE175C7E610F03FB /* libPods-SouJiao.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C9E4FD210C6204DFB5FC382 /* libPods-SouJiao.a */; };
 /* End PBXBuildFile section */
 
@@ -157,6 +168,24 @@
 		3BE7EDE61EACB68B00B73832 /* SJMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJMainViewController.h; sourceTree = "<group>"; };
 		3BE7EDE71EACB68B00B73832 /* SJMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJMainViewController.m; sourceTree = "<group>"; };
 		3BE7EDF71EACE45A00B73832 /* SJMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJMainViewController.xib; sourceTree = "<group>"; };
+		3BFDBDE11EF673FA00BE8B3F /* SJValidationCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJValidationCodeView.h; sourceTree = "<group>"; };
+		3BFDBDE21EF673FA00BE8B3F /* SJValidationCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJValidationCodeView.m; sourceTree = "<group>"; };
+		3BFDBDE41EF6786400BE8B3F /* SJValidationCodeInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJValidationCodeInputView.h; sourceTree = "<group>"; };
+		3BFDBDE51EF6786400BE8B3F /* SJValidationCodeInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJValidationCodeInputView.m; sourceTree = "<group>"; };
+		3BFDBDE71EF6787300BE8B3F /* SJValidationCodeInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJValidationCodeInputView.xib; sourceTree = "<group>"; };
+		3BFDBDEA1EF69D7900BE8B3F /* SJOrganizationDisplayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJOrganizationDisplayCell.h; sourceTree = "<group>"; };
+		3BFDBDEB1EF69D7900BE8B3F /* SJOrganizationDisplayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJOrganizationDisplayCell.m; sourceTree = "<group>"; };
+		3BFDBDEC1EF69D7900BE8B3F /* SJOrganizationDisplayCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJOrganizationDisplayCell.xib; sourceTree = "<group>"; };
+		3BFDBDEF1EF6B8CD00BE8B3F /* SJOrganizationPreviewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJOrganizationPreviewController.h; sourceTree = "<group>"; };
+		3BFDBDF01EF6B8CD00BE8B3F /* SJOrganizationPreviewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJOrganizationPreviewController.m; sourceTree = "<group>"; };
+		3BFDBDF11EF6B8CD00BE8B3F /* SJOrganizationPreviewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJOrganizationPreviewController.xib; sourceTree = "<group>"; };
+		3BFDBDF51EF6B9C000BE8B3F /* SJOrganization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJOrganization.h; sourceTree = "<group>"; };
+		3BFDBDF61EF6B9C000BE8B3F /* SJOrganization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJOrganization.m; sourceTree = "<group>"; };
+		3BFDBDF91EF6BAB100BE8B3F /* SJEducationOrganization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJEducationOrganization.h; sourceTree = "<group>"; };
+		3BFDBDFA1EF6BAB100BE8B3F /* SJEducationOrganization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJEducationOrganization.m; sourceTree = "<group>"; };
+		3BFDBDFC1EF6C2C500BE8B3F /* SJOrganizationHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJOrganizationHeaderView.h; sourceTree = "<group>"; };
+		3BFDBDFD1EF6C2C500BE8B3F /* SJOrganizationHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJOrganizationHeaderView.m; sourceTree = "<group>"; };
+		3BFDBDFF1EF6C2D200BE8B3F /* SJOrganizationHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJOrganizationHeaderView.xib; sourceTree = "<group>"; };
 		772B1564477F133C8BF3471B /* Pods-SouJiao.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouJiao.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SouJiao/Pods-SouJiao.debug.xcconfig"; sourceTree = "<group>"; };
 		8D5685EB34D152C3114858E6 /* Pods-SouJiao.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SouJiao.release.xcconfig"; path = "Pods/Target Support Files/Pods-SouJiao/Pods-SouJiao.release.xcconfig"; sourceTree = "<group>"; };
 		9C9E4FD210C6204DFB5FC382 /* libPods-SouJiao.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SouJiao.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -235,6 +264,8 @@
 				3B40C8731EDD17F1002BE89C /* SJMapViewController.h */,
 				3B40C8741EDD17F1002BE89C /* SJMapViewController.m */,
 				3B40C8751EDD17F1002BE89C /* SJMapViewController.xib */,
+				3BFDBDE11EF673FA00BE8B3F /* SJValidationCodeView.h */,
+				3BFDBDE21EF673FA00BE8B3F /* SJValidationCodeView.m */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -271,6 +302,9 @@
 				3B857CFA1EC751D200764354 /* SJLoginViewController.h */,
 				3B857CFB1EC751D200764354 /* SJLoginViewController.m */,
 				3B857CFC1EC751D200764354 /* SJLoginViewController.xib */,
+				3BFDBDE41EF6786400BE8B3F /* SJValidationCodeInputView.h */,
+				3BFDBDE51EF6786400BE8B3F /* SJValidationCodeInputView.m */,
+				3BFDBDE71EF6787300BE8B3F /* SJValidationCodeInputView.xib */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -283,13 +317,6 @@
 				3B857D0A1EC7521600764354 /* SJAdvertiseViewController.xib */,
 			);
 			path = Advertise;
-			sourceTree = "<group>";
-		};
-		3B857D0B1EC7521600764354 /* List */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = List;
 			sourceTree = "<group>";
 		};
 		3B8924FE1EAB5C710039A208 = {
@@ -392,6 +419,7 @@
 		3BE7EDC01EACAFDD00B73832 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				3BFDBDF41EF6B9A600BE8B3F /* Organization */,
 				3BE7EDD81EACB2CB00B73832 /* LoginCenter */,
 				3BE7EDCA1EACB11A00B73832 /* User */,
 				3BA0CE2C1EC84EF7003F37F8 /* SJSearchManager.h */,
@@ -449,8 +477,8 @@
 		3BE7EDDD1EACB5C700B73832 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				3BFDBDE91EF69D0D00BE8B3F /* OrgList */,
 				3B857D071EC7521600764354 /* Advertise */,
-				3B857D0B1EC7521600764354 /* List */,
 				3BE7EDE61EACB68B00B73832 /* SJMainViewController.h */,
 				3BE7EDE71EACB68B00B73832 /* SJMainViewController.m */,
 				3BE7EDF71EACE45A00B73832 /* SJMainViewController.xib */,
@@ -465,6 +493,41 @@
 				3BE7EDE41EACB67100B73832 /* SJRootViewController.m */,
 			);
 			path = Root;
+			sourceTree = "<group>";
+		};
+		3BFDBDE91EF69D0D00BE8B3F /* OrgList */ = {
+			isa = PBXGroup;
+			children = (
+				3BFDBDEA1EF69D7900BE8B3F /* SJOrganizationDisplayCell.h */,
+				3BFDBDEB1EF69D7900BE8B3F /* SJOrganizationDisplayCell.m */,
+				3BFDBDEC1EF69D7900BE8B3F /* SJOrganizationDisplayCell.xib */,
+				3BFDBDEF1EF6B8CD00BE8B3F /* SJOrganizationPreviewController.h */,
+				3BFDBDF01EF6B8CD00BE8B3F /* SJOrganizationPreviewController.m */,
+				3BFDBDF11EF6B8CD00BE8B3F /* SJOrganizationPreviewController.xib */,
+				3BFDBDFC1EF6C2C500BE8B3F /* SJOrganizationHeaderView.h */,
+				3BFDBDFD1EF6C2C500BE8B3F /* SJOrganizationHeaderView.m */,
+				3BFDBDFF1EF6C2D200BE8B3F /* SJOrganizationHeaderView.xib */,
+			);
+			path = OrgList;
+			sourceTree = "<group>";
+		};
+		3BFDBDF41EF6B9A600BE8B3F /* Organization */ = {
+			isa = PBXGroup;
+			children = (
+				3BFDBDF81EF6BA0500BE8B3F /* SpecificOrganization */,
+				3BFDBDF51EF6B9C000BE8B3F /* SJOrganization.h */,
+				3BFDBDF61EF6B9C000BE8B3F /* SJOrganization.m */,
+			);
+			path = Organization;
+			sourceTree = "<group>";
+		};
+		3BFDBDF81EF6BA0500BE8B3F /* SpecificOrganization */ = {
+			isa = PBXGroup;
+			children = (
+				3BFDBDF91EF6BAB100BE8B3F /* SJEducationOrganization.h */,
+				3BFDBDFA1EF6BAB100BE8B3F /* SJEducationOrganization.m */,
+			);
+			path = SpecificOrganization;
 			sourceTree = "<group>";
 		};
 		72E7D7AC0A01B3B91B40EAF9 /* Frameworks */ = {
@@ -537,8 +600,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3BFDBDF31EF6B8CD00BE8B3F /* SJOrganizationPreviewController.xib in Resources */,
 				3BA0CE1E1EC821C2003F37F8 /* SJMineViewController.xib in Resources */,
 				3B40C8861EDD1A19002BE89C /* SJOrganzationRegStep4.xib in Resources */,
+				3BFDBDE81EF6787300BE8B3F /* SJValidationCodeInputView.xib in Resources */,
 				3B40C87C1EDD185C002BE89C /* SJOrganzationRegStep2.xib in Resources */,
 				3B40C8711EDD0FDC002BE89C /* SJPersonalRegViewController.xib in Resources */,
 				3B857D031EC751D200764354 /* SJLoginViewController.xib in Resources */,
@@ -549,8 +614,10 @@
 				3BE7EDF81EACE45A00B73832 /* SJMainViewController.xib in Resources */,
 				3B40C8811EDD189B002BE89C /* SJOrganzationRegStep3.xib in Resources */,
 				3B8925171EAB5C720039A208 /* Assets.xcassets in Resources */,
+				3BFDBDEE1EF69D7A00BE8B3F /* SJOrganizationDisplayCell.xib in Resources */,
 				3BA0CE2A1EC82583003F37F8 /* SJUserProfileView.xib in Resources */,
 				3B88969C1EE3B54300ACE9A4 /* SJRegisterValidateView.xib in Resources */,
+				3BFDBE001EF6C2D200BE8B3F /* SJOrganizationHeaderView.xib in Resources */,
 				3B857D0D1EC7521600764354 /* SJAdvertiseViewController.xib in Resources */,
 				3B40C8771EDD17F1002BE89C /* SJMapViewController.xib in Resources */,
 				3B14BCC01ED1CD30002AC085 /* SJRegisterTableViewCell.xib in Resources */,
@@ -624,19 +691,26 @@
 				3B88969F1EE3C58D00ACE9A4 /* SJDefaults.m in Sources */,
 				3B67751F1EDC6C0900D5720E /* SJOrganzationRegStep1.m in Sources */,
 				3B67751B1EDC6BEB00D5720E /* SJPersonalRegViewController.m in Sources */,
+				3BFDBDFB1EF6BAB100BE8B3F /* SJEducationOrganization.m in Sources */,
+				3BFDBDE31EF673FA00BE8B3F /* SJValidationCodeView.m in Sources */,
+				3BFDBDFE1EF6C2C500BE8B3F /* SJOrganizationHeaderView.m in Sources */,
 				3BA0CE2E1EC84EF7003F37F8 /* SJSearchManager.m in Sources */,
+				3BFDBDE61EF6786400BE8B3F /* SJValidationCodeInputView.m in Sources */,
 				3BA0CE3A1EC897D7003F37F8 /* UIDevice+Common.m in Sources */,
 				3B857D0C1EC7521600764354 /* SJAdvertiseViewController.m in Sources */,
 				3B14BCBF1ED1CD30002AC085 /* SJRegisterTableViewCell.m in Sources */,
 				3BA0CE3D1EC89869003F37F8 /* UIView+Frame.m in Sources */,
+				3BFDBDED1EF69D7900BE8B3F /* SJOrganizationDisplayCell.m in Sources */,
 				3B6775151EDC4B2500D5720E /* DLNavigationTabBar.m in Sources */,
 				3B40C8761EDD17F1002BE89C /* SJMapViewController.m in Sources */,
 				3B857D021EC751D200764354 /* SJLoginViewController.m in Sources */,
 				3B40C8891EDDAEA4002BE89C /* UIColor+CustomColor.m in Sources */,
 				3B14BCB51ED1C248002AC085 /* SJBaseItem.m in Sources */,
 				3BA0CE401EC89A64003F37F8 /* SJUtility.m in Sources */,
+				3BFDBDF71EF6B9C000BE8B3F /* SJOrganization.m in Sources */,
 				3B40C87B1EDD185C002BE89C /* SJOrganzationRegStep2.m in Sources */,
 				3B6775181EDC4F0000D5720E /* SJLoginSelectViewController.m in Sources */,
+				3BFDBDF21EF6B8CD00BE8B3F /* SJOrganizationPreviewController.m in Sources */,
 				3B89250F1EAB5C710039A208 /* AppDelegate.m in Sources */,
 				3BE7EDE81EACB68B00B73832 /* SJMainViewController.m in Sources */,
 				3B89250C1EAB5C710039A208 /* main.m in Sources */,
