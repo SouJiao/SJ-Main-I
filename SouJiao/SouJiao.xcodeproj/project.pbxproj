@@ -24,6 +24,19 @@
 		3B40C8891EDDAEA4002BE89C /* UIColor+CustomColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B40C8881EDDAEA4002BE89C /* UIColor+CustomColor.m */; };
 		3B60FC8E1EDDB58B002F17B9 /* SJRegisterInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B60FC8D1EDDB58B002F17B9 /* SJRegisterInputView.m */; };
 		3B60FC901EDDB5A8002F17B9 /* SJRegisterInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B60FC8F1EDDB5A8002F17B9 /* SJRegisterInputView.xib */; };
+		3B65B8541F08DB14007AB242 /* SJRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B65B8531F08DB14007AB242 /* SJRequest.m */; };
+		3B65B8611F08EB42007AB242 /* SJGetPhoneVerifyCodeRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B65B8601F08EB42007AB242 /* SJGetPhoneVerifyCodeRequest.m */; };
+		3B65B8641F08EE5A007AB242 /* SJRegisterRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B65B8631F08EE5A007AB242 /* SJRegisterRequest.m */; };
+		3B65B8671F08EF8F007AB242 /* NSDictionary+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B65B8661F08EF8F007AB242 /* NSDictionary+JSON.m */; };
+		3B65B86A1F08FB57007AB242 /* NSError+SJError.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B65B8691F08FB57007AB242 /* NSError+SJError.m */; };
+		3B65B8761F08FEFE007AB242 /* SJUserProfiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B65B86F1F08FEFE007AB242 /* SJUserProfiles.m */; };
+		3B65B8771F08FEFE007AB242 /* SJBusinessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B65B8711F08FEFE007AB242 /* SJBusinessUser.m */; };
+		3B65B8781F08FEFE007AB242 /* SJGeneralUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B65B8731F08FEFE007AB242 /* SJGeneralUser.m */; };
+		3B65B8791F08FEFE007AB242 /* SJUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B65B8751F08FEFE007AB242 /* SJUser.m */; };
+		3B65B87C1F08FF19007AB242 /* SJUserCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B65B87B1F08FF19007AB242 /* SJUserCenter.m */; };
+		3B65B87F1F090271007AB242 /* UIAlertController+Custom.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B65B87E1F090271007AB242 /* UIAlertController+Custom.m */; };
+		3B65B8821F0938CB007AB242 /* SJLoginRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B65B8811F0938CB007AB242 /* SJLoginRequest.m */; };
+		3B65B8851F0939FD007AB242 /* SJOrganizationApplyReqeust.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B65B8841F0939FD007AB242 /* SJOrganizationApplyReqeust.m */; };
 		3B6775151EDC4B2500D5720E /* DLNavigationTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6775141EDC4B2500D5720E /* DLNavigationTabBar.m */; };
 		3B6775181EDC4F0000D5720E /* SJLoginSelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B6775171EDC4F0000D5720E /* SJLoginSelectViewController.m */; };
 		3B67751B1EDC6BEB00D5720E /* SJPersonalRegViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B67751A1EDC6BEB00D5720E /* SJPersonalRegViewController.m */; };
@@ -53,10 +66,6 @@
 		3BA0CE3D1EC89869003F37F8 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CE3C1EC89869003F37F8 /* UIView+Frame.m */; };
 		3BA0CE401EC89A64003F37F8 /* SJUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BA0CE3F1EC89A64003F37F8 /* SJUtility.m */; };
 		3BD12A8B1EE44D5600066D1D /* SJOrganzationCenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD12A891EE44D5600066D1D /* SJOrganzationCenterViewController.m */; };
-		3BE7EDD11EACB11A00B73832 /* SJBusinessUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDCC1EACB11A00B73832 /* SJBusinessUser.m */; };
-		3BE7EDD21EACB11A00B73832 /* SJGeneralUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDCE1EACB11A00B73832 /* SJGeneralUser.m */; };
-		3BE7EDD31EACB11A00B73832 /* SJUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDD01EACB11A00B73832 /* SJUser.m */; };
-		3BE7EDD71EACB1FF00B73832 /* SJUserProfiles.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDD61EACB1FF00B73832 /* SJUserProfiles.m */; };
 		3BE7EDDB1EACB2DD00B73832 /* SJLoginCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDDA1EACB2DD00B73832 /* SJLoginCenter.m */; };
 		3BE7EDE51EACB67100B73832 /* SJRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDE41EACB67100B73832 /* SJRootViewController.m */; };
 		3BE7EDE81EACB68B00B73832 /* SJMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BE7EDE71EACB68B00B73832 /* SJMainViewController.m */; };
@@ -102,6 +111,32 @@
 		3B60FC8C1EDDB58B002F17B9 /* SJRegisterInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRegisterInputView.h; sourceTree = "<group>"; };
 		3B60FC8D1EDDB58B002F17B9 /* SJRegisterInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRegisterInputView.m; sourceTree = "<group>"; };
 		3B60FC8F1EDDB5A8002F17B9 /* SJRegisterInputView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SJRegisterInputView.xib; sourceTree = "<group>"; };
+		3B65B8521F08DB14007AB242 /* SJRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRequest.h; sourceTree = "<group>"; };
+		3B65B8531F08DB14007AB242 /* SJRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRequest.m; sourceTree = "<group>"; };
+		3B65B85F1F08EB42007AB242 /* SJGetPhoneVerifyCodeRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJGetPhoneVerifyCodeRequest.h; sourceTree = "<group>"; };
+		3B65B8601F08EB42007AB242 /* SJGetPhoneVerifyCodeRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJGetPhoneVerifyCodeRequest.m; sourceTree = "<group>"; };
+		3B65B8621F08EE5A007AB242 /* SJRegisterRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRegisterRequest.h; sourceTree = "<group>"; };
+		3B65B8631F08EE5A007AB242 /* SJRegisterRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJRegisterRequest.m; sourceTree = "<group>"; };
+		3B65B8651F08EF8F007AB242 /* NSDictionary+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+JSON.h"; sourceTree = "<group>"; };
+		3B65B8661F08EF8F007AB242 /* NSDictionary+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+JSON.m"; sourceTree = "<group>"; };
+		3B65B8681F08FB57007AB242 /* NSError+SJError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+SJError.h"; sourceTree = "<group>"; };
+		3B65B8691F08FB57007AB242 /* NSError+SJError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+SJError.m"; sourceTree = "<group>"; };
+		3B65B86E1F08FEFE007AB242 /* SJUserProfiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJUserProfiles.h; sourceTree = "<group>"; };
+		3B65B86F1F08FEFE007AB242 /* SJUserProfiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJUserProfiles.m; sourceTree = "<group>"; };
+		3B65B8701F08FEFE007AB242 /* SJBusinessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJBusinessUser.h; sourceTree = "<group>"; };
+		3B65B8711F08FEFE007AB242 /* SJBusinessUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJBusinessUser.m; sourceTree = "<group>"; };
+		3B65B8721F08FEFE007AB242 /* SJGeneralUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJGeneralUser.h; sourceTree = "<group>"; };
+		3B65B8731F08FEFE007AB242 /* SJGeneralUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJGeneralUser.m; sourceTree = "<group>"; };
+		3B65B8741F08FEFE007AB242 /* SJUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJUser.h; sourceTree = "<group>"; };
+		3B65B8751F08FEFE007AB242 /* SJUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJUser.m; sourceTree = "<group>"; };
+		3B65B87A1F08FF19007AB242 /* SJUserCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJUserCenter.h; sourceTree = "<group>"; };
+		3B65B87B1F08FF19007AB242 /* SJUserCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJUserCenter.m; sourceTree = "<group>"; };
+		3B65B87D1F090271007AB242 /* UIAlertController+Custom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertController+Custom.h"; sourceTree = "<group>"; };
+		3B65B87E1F090271007AB242 /* UIAlertController+Custom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertController+Custom.m"; sourceTree = "<group>"; };
+		3B65B8801F0938CB007AB242 /* SJLoginRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLoginRequest.h; sourceTree = "<group>"; };
+		3B65B8811F0938CB007AB242 /* SJLoginRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLoginRequest.m; sourceTree = "<group>"; };
+		3B65B8831F0939FD007AB242 /* SJOrganizationApplyReqeust.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJOrganizationApplyReqeust.h; sourceTree = "<group>"; };
+		3B65B8841F0939FD007AB242 /* SJOrganizationApplyReqeust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJOrganizationApplyReqeust.m; sourceTree = "<group>"; };
 		3B6775131EDC4B2500D5720E /* DLNavigationTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DLNavigationTabBar.h; sourceTree = "<group>"; };
 		3B6775141EDC4B2500D5720E /* DLNavigationTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DLNavigationTabBar.m; sourceTree = "<group>"; };
 		3B6775161EDC4F0000D5720E /* SJLoginSelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLoginSelectViewController.h; sourceTree = "<group>"; };
@@ -153,14 +188,6 @@
 		3BA0CE3F1EC89A64003F37F8 /* SJUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJUtility.m; sourceTree = "<group>"; };
 		3BD12A881EE44D5600066D1D /* SJOrganzationCenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJOrganzationCenterViewController.h; sourceTree = "<group>"; };
 		3BD12A891EE44D5600066D1D /* SJOrganzationCenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJOrganzationCenterViewController.m; sourceTree = "<group>"; };
-		3BE7EDCB1EACB11A00B73832 /* SJBusinessUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJBusinessUser.h; sourceTree = "<group>"; };
-		3BE7EDCC1EACB11A00B73832 /* SJBusinessUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJBusinessUser.m; sourceTree = "<group>"; };
-		3BE7EDCD1EACB11A00B73832 /* SJGeneralUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJGeneralUser.h; sourceTree = "<group>"; };
-		3BE7EDCE1EACB11A00B73832 /* SJGeneralUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJGeneralUser.m; sourceTree = "<group>"; };
-		3BE7EDCF1EACB11A00B73832 /* SJUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJUser.h; sourceTree = "<group>"; };
-		3BE7EDD01EACB11A00B73832 /* SJUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJUser.m; sourceTree = "<group>"; };
-		3BE7EDD51EACB1FF00B73832 /* SJUserProfiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJUserProfiles.h; sourceTree = "<group>"; };
-		3BE7EDD61EACB1FF00B73832 /* SJUserProfiles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJUserProfiles.m; sourceTree = "<group>"; };
 		3BE7EDD91EACB2DD00B73832 /* SJLoginCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJLoginCenter.h; sourceTree = "<group>"; };
 		3BE7EDDA1EACB2DD00B73832 /* SJLoginCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SJLoginCenter.m; sourceTree = "<group>"; };
 		3BE7EDE31EACB67100B73832 /* SJRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SJRootViewController.h; sourceTree = "<group>"; };
@@ -268,6 +295,64 @@
 				3BFDBDE21EF673FA00BE8B3F /* SJValidationCodeView.m */,
 			);
 			path = Common;
+			sourceTree = "<group>";
+		};
+		3B65B84E1F08DA74007AB242 /* SJServer */ = {
+			isa = PBXGroup;
+			children = (
+				3B65B85E1F08EB19007AB242 /* Requests */,
+				3B65B8521F08DB14007AB242 /* SJRequest.h */,
+				3B65B8531F08DB14007AB242 /* SJRequest.m */,
+			);
+			path = SJServer;
+			sourceTree = "<group>";
+		};
+		3B65B85E1F08EB19007AB242 /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				3B65B85F1F08EB42007AB242 /* SJGetPhoneVerifyCodeRequest.h */,
+				3B65B8601F08EB42007AB242 /* SJGetPhoneVerifyCodeRequest.m */,
+				3B65B8621F08EE5A007AB242 /* SJRegisterRequest.h */,
+				3B65B8631F08EE5A007AB242 /* SJRegisterRequest.m */,
+				3B65B8801F0938CB007AB242 /* SJLoginRequest.h */,
+				3B65B8811F0938CB007AB242 /* SJLoginRequest.m */,
+				3B65B8831F0939FD007AB242 /* SJOrganizationApplyReqeust.h */,
+				3B65B8841F0939FD007AB242 /* SJOrganizationApplyReqeust.m */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		3B65B86B1F08FEFE007AB242 /* UserCenter */ = {
+			isa = PBXGroup;
+			children = (
+				3B65B86C1F08FEFE007AB242 /* User */,
+				3B65B87A1F08FF19007AB242 /* SJUserCenter.h */,
+				3B65B87B1F08FF19007AB242 /* SJUserCenter.m */,
+			);
+			path = UserCenter;
+			sourceTree = "<group>";
+		};
+		3B65B86C1F08FEFE007AB242 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				3B65B86D1F08FEFE007AB242 /* Profiles */,
+				3B65B8701F08FEFE007AB242 /* SJBusinessUser.h */,
+				3B65B8711F08FEFE007AB242 /* SJBusinessUser.m */,
+				3B65B8721F08FEFE007AB242 /* SJGeneralUser.h */,
+				3B65B8731F08FEFE007AB242 /* SJGeneralUser.m */,
+				3B65B8741F08FEFE007AB242 /* SJUser.h */,
+				3B65B8751F08FEFE007AB242 /* SJUser.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		3B65B86D1F08FEFE007AB242 /* Profiles */ = {
+			isa = PBXGroup;
+			children = (
+				3B65B86E1F08FEFE007AB242 /* SJUserProfiles.h */,
+				3B65B86F1F08FEFE007AB242 /* SJUserProfiles.m */,
+			);
+			path = Profiles;
 			sourceTree = "<group>";
 		};
 		3B6775121EDC139300D5720E /* Resources */ = {
@@ -392,6 +477,12 @@
 				3BA0CE3C1EC89869003F37F8 /* UIView+Frame.m */,
 				3B40C8871EDDAEA4002BE89C /* UIColor+CustomColor.h */,
 				3B40C8881EDDAEA4002BE89C /* UIColor+CustomColor.m */,
+				3B65B8651F08EF8F007AB242 /* NSDictionary+JSON.h */,
+				3B65B8661F08EF8F007AB242 /* NSDictionary+JSON.m */,
+				3B65B8681F08FB57007AB242 /* NSError+SJError.h */,
+				3B65B8691F08FB57007AB242 /* NSError+SJError.m */,
+				3B65B87D1F090271007AB242 /* UIAlertController+Custom.h */,
+				3B65B87E1F090271007AB242 /* UIAlertController+Custom.m */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -419,38 +510,16 @@
 		3BE7EDC01EACAFDD00B73832 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				3B65B86B1F08FEFE007AB242 /* UserCenter */,
+				3B65B84E1F08DA74007AB242 /* SJServer */,
 				3BFDBDF41EF6B9A600BE8B3F /* Organization */,
 				3BE7EDD81EACB2CB00B73832 /* LoginCenter */,
-				3BE7EDCA1EACB11A00B73832 /* User */,
 				3BA0CE2C1EC84EF7003F37F8 /* SJSearchManager.h */,
 				3BA0CE2D1EC84EF7003F37F8 /* SJSearchManager.m */,
 				3BA0CE311EC851D7003F37F8 /* SJUserManager.h */,
 				3BA0CE321EC851D7003F37F8 /* SJUserManager.m */,
 			);
 			path = Modules;
-			sourceTree = "<group>";
-		};
-		3BE7EDCA1EACB11A00B73832 /* User */ = {
-			isa = PBXGroup;
-			children = (
-				3BE7EDD41EACB1EC00B73832 /* Profiles */,
-				3BE7EDCB1EACB11A00B73832 /* SJBusinessUser.h */,
-				3BE7EDCC1EACB11A00B73832 /* SJBusinessUser.m */,
-				3BE7EDCD1EACB11A00B73832 /* SJGeneralUser.h */,
-				3BE7EDCE1EACB11A00B73832 /* SJGeneralUser.m */,
-				3BE7EDCF1EACB11A00B73832 /* SJUser.h */,
-				3BE7EDD01EACB11A00B73832 /* SJUser.m */,
-			);
-			path = User;
-			sourceTree = "<group>";
-		};
-		3BE7EDD41EACB1EC00B73832 /* Profiles */ = {
-			isa = PBXGroup;
-			children = (
-				3BE7EDD51EACB1FF00B73832 /* SJUserProfiles.h */,
-				3BE7EDD61EACB1FF00B73832 /* SJUserProfiles.m */,
-			);
-			path = Profiles;
 			sourceTree = "<group>";
 		};
 		3BE7EDD81EACB2CB00B73832 /* LoginCenter */ = {
@@ -681,17 +750,20 @@
 			files = (
 				3BE7EDE51EACB67100B73832 /* SJRootViewController.m in Sources */,
 				3BA0CE331EC851D7003F37F8 /* SJUserManager.m in Sources */,
+				3B65B86A1F08FB57007AB242 /* NSError+SJError.m in Sources */,
 				3BE7EDDB1EACB2DD00B73832 /* SJLoginCenter.m in Sources */,
 				3BD12A8B1EE44D5600066D1D /* SJOrganzationCenterViewController.m in Sources */,
 				3BA0CE211EC82534003F37F8 /* SJUserProfileView.m in Sources */,
-				3BE7EDD31EACB11A00B73832 /* SJUser.m in Sources */,
 				3B14BCBA1ED1CA4D002AC085 /* SJRegisterViewController.m in Sources */,
 				3B40C8851EDD1A19002BE89C /* SJOrganzationRegStep4.m in Sources */,
 				3B40C8801EDD189B002BE89C /* SJOrganzationRegStep3.m in Sources */,
 				3B88969F1EE3C58D00ACE9A4 /* SJDefaults.m in Sources */,
 				3B67751F1EDC6C0900D5720E /* SJOrganzationRegStep1.m in Sources */,
+				3B65B8541F08DB14007AB242 /* SJRequest.m in Sources */,
 				3B67751B1EDC6BEB00D5720E /* SJPersonalRegViewController.m in Sources */,
+				3B65B8771F08FEFE007AB242 /* SJBusinessUser.m in Sources */,
 				3BFDBDFB1EF6BAB100BE8B3F /* SJEducationOrganization.m in Sources */,
+				3B65B8761F08FEFE007AB242 /* SJUserProfiles.m in Sources */,
 				3BFDBDE31EF673FA00BE8B3F /* SJValidationCodeView.m in Sources */,
 				3BFDBDFE1EF6C2C500BE8B3F /* SJOrganizationHeaderView.m in Sources */,
 				3BA0CE2E1EC84EF7003F37F8 /* SJSearchManager.m in Sources */,
@@ -704,11 +776,15 @@
 				3B6775151EDC4B2500D5720E /* DLNavigationTabBar.m in Sources */,
 				3B40C8761EDD17F1002BE89C /* SJMapViewController.m in Sources */,
 				3B857D021EC751D200764354 /* SJLoginViewController.m in Sources */,
+				3B65B8671F08EF8F007AB242 /* NSDictionary+JSON.m in Sources */,
 				3B40C8891EDDAEA4002BE89C /* UIColor+CustomColor.m in Sources */,
 				3B14BCB51ED1C248002AC085 /* SJBaseItem.m in Sources */,
+				3B65B8791F08FEFE007AB242 /* SJUser.m in Sources */,
 				3BA0CE401EC89A64003F37F8 /* SJUtility.m in Sources */,
 				3BFDBDF71EF6B9C000BE8B3F /* SJOrganization.m in Sources */,
 				3B40C87B1EDD185C002BE89C /* SJOrganzationRegStep2.m in Sources */,
+				3B65B8641F08EE5A007AB242 /* SJRegisterRequest.m in Sources */,
+				3B65B8851F0939FD007AB242 /* SJOrganizationApplyReqeust.m in Sources */,
 				3B6775181EDC4F0000D5720E /* SJLoginSelectViewController.m in Sources */,
 				3BFDBDF21EF6B8CD00BE8B3F /* SJOrganizationPreviewController.m in Sources */,
 				3B89250F1EAB5C710039A208 /* AppDelegate.m in Sources */,
@@ -717,11 +793,13 @@
 				3B60FC8E1EDDB58B002F17B9 /* SJRegisterInputView.m in Sources */,
 				3BA0CE281EC82565003F37F8 /* SJBaseView.m in Sources */,
 				3B88969A1EE3B53600ACE9A4 /* SJRegisterValidateView.m in Sources */,
-				3BE7EDD11EACB11A00B73832 /* SJBusinessUser.m in Sources */,
+				3B65B87C1F08FF19007AB242 /* SJUserCenter.m in Sources */,
+				3B65B8821F0938CB007AB242 /* SJLoginRequest.m in Sources */,
 				3BA0CE251EC82554003F37F8 /* SJBaseViewController.m in Sources */,
-				3BE7EDD21EACB11A00B73832 /* SJGeneralUser.m in Sources */,
 				3B857D061EC751D200764354 /* SJMineViewController.m in Sources */,
-				3BE7EDD71EACB1FF00B73832 /* SJUserProfiles.m in Sources */,
+				3B65B8611F08EB42007AB242 /* SJGetPhoneVerifyCodeRequest.m in Sources */,
+				3B65B8781F08FEFE007AB242 /* SJGeneralUser.m in Sources */,
+				3B65B87F1F090271007AB242 /* UIAlertController+Custom.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

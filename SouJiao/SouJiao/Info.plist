@@ -41,5 +41,10 @@
 	<string>想要访问您的相册</string>
 	<key>NSCameraUsageDescription</key>
 	<string>亲，可以访问您的相机吗？</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 </dict>
 </plist>

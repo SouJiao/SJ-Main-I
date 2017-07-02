@@ -23,6 +23,13 @@
 
 -(SJUser*) getLoginUser
 {
+    AFHTTPRequestOperationManager* manager = [AFHTTPRequestOperationManager manager];
+    [manager GET:@"" parameters:nil success:^(AFHTTPRequestOperation * _Nonnull operation, id  _Nonnull responseObject) {
+        NSLog(@"");
+    } failure:^(AFHTTPRequestOperation * _Nullable operation, NSError * _Nonnull error) {
+        
+    }];
+    
     return nil;
 }
 

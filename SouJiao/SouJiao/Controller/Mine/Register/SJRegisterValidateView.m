@@ -7,6 +7,7 @@
 //
 
 #import "SJRegisterValidateView.h"
+#import "SJGetPhoneVerifyCodeRequest.h"
 
 @interface SJRegisterValidateView ()
 
@@ -19,6 +20,8 @@
 @property(nonatomic, strong) NSTimer* timer;
 @property(nonatomic, assign) NSInteger counter;
 @property(nonatomic, assign) BOOL counterState;
+
+@property(nonatomic, strong) SJRequest* request;
 
 @end
 
@@ -47,7 +50,22 @@
 
 -(IBAction) onButtonClicked:(id)sender
 {
-    [self startCounter];
+    if (!_phoneNumber) {
+        [UIAlertController showWithMessage:@"请输入手机号码！"];
+        return;
+    }
+    
+    weakSelf(obj);
+    _request = [SJGetPhoneVerifyCodeRequest requestWithPhoneNumber:_phoneNumber];
+    [_request requestWithCompletion:^(id result, NSError *error) {
+        if (error) {
+            [UIAlertController showWithMessage:error.localizedDescription];
+        }
+        else
+        {
+            [obj startCounter];
+        }
+    }];
 }
 
 -(void) setTitle:(NSString *)title

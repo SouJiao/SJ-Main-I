@@ -31,6 +31,23 @@
     [_view mas_makeConstraints:^(MASConstraintMaker *make) {
         make.edges.equalTo(self);
     }];
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onTextFiledValueChanged:) name:UITextFieldTextDidChangeNotification object:_inputTextField];
+}
+
+-(void) dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self];
+}
+
+-(void) onTextFiledValueChanged:(NSNotification*)notify
+{
+    UITextField* textField = (UITextField*)notify.object;
+    if ([textField isEqual:_inputTextField]) {
+        if (self.delegate && [self.delegate respondsToSelector:@selector(inputView:didInputValueChanged:)]) {
+            [self.delegate inputView:self didInputValueChanged:textField.text];
+        }
+    }
 }
 
 -(void) setTitle:(NSString *)title
@@ -50,6 +67,5 @@
     _secureInput = secureInput;
     [self.inputTextField setSecureTextEntry:secureInput];
 }
-
 
 @end
